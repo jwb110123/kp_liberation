@@ -22,19 +22,19 @@ class Params
 		title = $STR_AGGRESSIVITY_PARAM;
 		values[] = {0,1,2,3,4};
 		texts[] = {$STR_AGGRESSIVITY_PARAM0, $STR_AGGRESSIVITY_PARAM1,$STR_AGGRESSIVITY_PARAM2,$STR_AGGRESSIVITY_PARAM3,$STR_AGGRESSIVITY_PARAM4};
-		default = 2;
+		default = 3;
 	};
 	class AdaptToPlayercount {
 		title = $STR_PARAM_ADAPT_TO_PLAYERCOUNT;
 		values[] = {1,0};
 		texts[] = {$STR_PARAMS_ENABLED,$STR_PARAMS_DISABLED};
-		default = 1;
+		default = 0;
 	};
 	class Civilians {
 		title = $STR_PARAMS_CIVILIANS;
 		values[] = {0,1,2,3};
 		texts[] = {$STR_PARAMS_CIVILIANS1,$STR_PARAMS_CIVILIANS2,$STR_PARAMS_CIVILIANS3,$STR_PARAMS_CIVILIANS4};
-		default = 2;
+		default = 1;
 	};
 	class FirstFob {
 		title = $STR_PARAMS_FIRSTFOB;
@@ -70,25 +70,25 @@ class Params
 		title = $STR_PARAMS_DAYDURATION;
 		values[] = {48, 24, 16, 12, 8, 6, 4, 3, 2, 1};
 		texts[] = {"0.5","1","1.5","2","3","4","6","8","12","24"};
-		default = 4;
+		default = 6;
 	};
 	class ShorterNights {
 		title = $STR_SHORTER_NIGHTS_PARAM;
 		values[] = {1,0};
 		texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-		default = 0;
+		default = 1;
 	};
 	class Weather {
 		title = $STR_WEATHER_PARAM;
 		values[] = { 1,2,3 };
 		texts[] = { $STR_WEATHER_PARAM1, $STR_WEATHER_PARAM2, $STR_WEATHER_PARAM3 };
-		default = 3;
+		default = 2;
 	};
 	class ResourcesMultiplier {
 		title = $STR_PARAMS_RESOURCESMULTIPLIER;
 		values[] = { 0, 1, 2, 3, 4, 5, 6, 7 };
 		texts[] = { "x0.25", "x0.5", "x0.75", "x1", "x1.25","x1.5","x2","x3" };
-		default = 3;
+		default = 7;
 	};
 	class Spacer1 {
 		title = "";
@@ -107,7 +107,7 @@ class Params
 		isGlobal = 1;
 		values[] = {-100,0,1};
 		texts[] = {$STR_A3_MissionDefault, $STR_A3_Disabled, $STR_A3_EnabledForAllPlayers};
-		default = 1;
+		default = 0;
 		function = "bis_fnc_paramReviveMode";
 	};
 	class ReviveDuration {
