@@ -1,12 +1,9 @@
 /*
 Needed Mods:
-- None
+- BAF
 
 Optional Mods:
-- BWMod
-- RHSUSAF
-- F-15C
-- F/A-18
+-
 */
 
 /* - Support classnames.
