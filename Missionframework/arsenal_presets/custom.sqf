@@ -60,7 +60,8 @@ GRLIB_arsenal_weapons = [
 	"UK3CB_BAF_Javelin_Launcher",
 	"UK3CB_BAF_Javelin_Slung_Tube",
 	"UK3CB_BAF_NLAW_Launcher",
-	"UK3CB_BAF_M6"
+	"UK3CB_BAF_M6",
+	"hgun_P07_F"
 ];
 
 GRLIB_arsenal_magazines = [
@@ -160,7 +161,8 @@ GRLIB_arsenal_magazines = [
 	"ACE_20Rnd_762x67_Mk248_Mod_1_Mag",
 	"ACE_20Rnd_762x67_Berger_Hybrid_OTM_Mag",
 	"ACE_10Rnd_338_300gr_HPBT_Mag",
-	"ACE_10Rnd_338_API526_Mag"
+	"ACE_10Rnd_338_API526_Mag",
+	"30Rnd_9x21_Mag"
 ];
 
 GRLIB_arsenal_items = [
@@ -595,7 +597,12 @@ GRLIB_arsenal_items = [
 	"ACE_CableTie",
 	"muzzle_snds_338_black",
 	"muzzle_snds_338_green",
-	"muzzle_snds_338_sand"
+	"muzzle_snds_338_sand",
+	"H_PilotHelmetFighter_B",
+	"U_B_PilotCoveralls",
+	"H_HelmetSpecB",
+	"U_B_CTRG_1",
+	"V_PlateCarrierH_CTRG"
 ];
 
 GRLIB_arsenal_backpacks = [
@@ -674,5 +681,6 @@ GRLIB_arsenal_backpacks = [
 	"ACE_gunbag",
 	"ACE_gunbag_Tan",
 	"ace_gunbag",
-	"ace_gunbag_Tan"
+	"ace_gunbag_Tan",
+	"B_Kitbag_rgr"
 ];
