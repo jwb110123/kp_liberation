@@ -126,7 +126,9 @@ air_vehicles = [
 	["B_Plane_Fighter_01_Stealth_F",1500,1750,450],						//F/A-181 Black Wasp II (Stealth)
 	["B_T_VTOL_01_armed_F",750,1500,500],								//V-44 X Blackfish (Armed)
 	["B_T_VTOL_01_infantry_F",750,0,500],								//V-44 X Blackfish (Infantry)
-	["B_T_VTOL_01_vehicle_F",750,0,500]									//V-44 X Blackfish (Vehicle)
+	["B_T_VTOL_01_vehicle_F",750,0,500],									//V-44 X Blackfish (Vehicle)
+	["O_T_VTOL_02_infantry_dynamicLoadout_F", 750, 1500, 500], 							// CSAT VTOL
+	["O_T_VTOL_02_vehicle_dynamicLoadout_F", 750, 1500, 500]							// CSAT VTOL
 ];
 
 static_vehicles = [
@@ -359,5 +361,7 @@ elite_vehicles = [
 	"JS_JC_FA18F",														//F/A-18 F Super Hornet
 	"B_Plane_Fighter_01_F",												//F/A-181 Black Wasp II
 	"B_Plane_Fighter_01_Stealth_F",										//F/A-181 Black Wasp II (Stealth)
-	"B_T_VTOL_01_armed_F"												//V-44 X Blackfish (Armed)
+	"B_T_VTOL_01_armed_F",												//V-44 X Blackfish (Armed)
+	"O_T_VTOL_02_infantry_dynamicLoadout_F",
+	"O_T_VTOL_02_vehicle_dynamicLoadout_F"
 ];
