@@ -61,7 +61,30 @@ GRLIB_arsenal_weapons = [
 	"UK3CB_BAF_Javelin_Slung_Tube",
 	"UK3CB_BAF_NLAW_Launcher",
 	"UK3CB_BAF_M6",
-	"hgun_P07_F"
+	"hgun_P07_F",
+	"srifle_EBR_F",
+	"srifle_LRR_F",
+	"srifle_DMR_04_F",
+	"srifle_DMR_05_blk_F",
+	"MMG_02_black_F",
+	"MMG_02_camo_F",
+	"srifle_DMR_06_olive_F",
+	"srifle_DMR_03_F",
+	"srifle_DMR_03_khaki_F",
+	"SMG_05_F",
+	"arifle_SPAR_01_blk_F",
+	"arifle_SPAR_01_khk_F",
+	"arifle_SPAR_01_snd_F",
+	"arifle_SPAR_01_GL_blk_F",
+	"arifle_SPAR_01_GL_khk_F",
+	"arifle_SPAR_01_GL_snd_F",
+	"arifle_SPAR_02_blk_F",
+	"arifle_SPAR_02_khk_F",
+	"arifle_SPAR_02_snd_F",
+	"arifle_SPAR_03_blk_F",
+	"arifle_SPAR_03_khk_F",
+	"arifle_SPAR_03_snd_F",
+	"rhs_weap_maaws"
 ];
 
 GRLIB_arsenal_magazines = [
@@ -142,6 +165,10 @@ GRLIB_arsenal_magazines = [
 	"ACE_M14",
 	"ACE_M84",
 	"10Rnd_338_Mag",
+	"ACE_100Rnd_65x39_caseless_mag_Tracer_Dim",
+	"ACE_200Rnd_65x39_cased_Box_Tracer_Dim",
+	"ACE_30Rnd_65x39_caseless_mag_Tracer_Dim",
+	"ACE_30Rnd_65x39_caseless_green_mag_Tracer_Dim",
 	"ACE_30Rnd_556x45_Stanag_M995_AP_mag",
 	"ACE_30Rnd_556x45_Stanag_Mk262_mag",
 	"ACE_30Rnd_556x45_Stanag_Mk318_mag",
@@ -160,9 +187,23 @@ GRLIB_arsenal_magazines = [
 	"ACE_20Rnd_762x67_Mk248_Mod_0_Mag",
 	"ACE_20Rnd_762x67_Mk248_Mod_1_Mag",
 	"ACE_20Rnd_762x67_Berger_Hybrid_OTM_Mag",
+	"ACE_30Rnd_65x47_Scenar_mag",
+	"ACE_30Rnd_65_Creedmor_mag",
 	"ACE_10Rnd_338_300gr_HPBT_Mag",
 	"ACE_10Rnd_338_API526_Mag",
-	"30Rnd_9x21_Mag"
+	"ACE_5Rnd_127x99_Mag",
+	"ACE_5Rnd_127x99_API_Mag",
+	"ACE_5Rnd_127x99_AMAX_Mag",
+	"ACE_30Rnd_9x19_mag",
+	"ACE_16Rnd_9x19_mag",
+	"ACE_10Rnd_762x54_Tracer_mag",
+	"rhs_mag_maaws_HE",
+	"rhs_mag_maaws_HEAT",
+	"rhs_mag_maaws_HEDP",
+	"rhs_mag_maaws_ILLUM",
+	"rhs_mag_maaws_SMOKE",
+	"UK3CB_BAF_NLAW_Mag",
+	"30Rnd_9x21_Mag""
 ];
 
 GRLIB_arsenal_items = [
@@ -518,7 +559,7 @@ GRLIB_arsenal_items = [
 	"UK3CB_BAF_H_Beret_SG_PRR",
 	"UK3CB_BAF_H_Beret_SG_PRR_Over",
 	"UK3CB_BAF_H_Wool_Hat",
-  "optic_Aco_smg",
+  	"optic_Aco_smg",
 	"optic_Aco",
 	"optic_Holosight",
 	"optic_Holosight_smg",
@@ -536,7 +577,7 @@ GRLIB_arsenal_items = [
 	"ACE_optic_LRPS_PIP",
 	"ACE_optic_SOS_2D",
 	"ACE_optic_SOS_PIP",
-  "ACE_ATragMX",
+  	"ACE_ATragMX",
 	"ACE_EarPlugs",
 	"ACE_Kestrel4500",
 	"ACE_acc_pointer_green_IR",
@@ -602,7 +643,14 @@ GRLIB_arsenal_items = [
 	"U_B_PilotCoveralls",
 	"H_HelmetSpecB",
 	"U_B_CTRG_1",
-	"V_PlateCarrierH_CTRG"
+	"V_PlateCarrierH_CTRG",
+	"U_B_FullGhillie_lsh",
+	"U_B_FullGhillie_sard",
+	"U_B_FullGhillie_ard",
+	"muzzle_snds_M",
+	"muzzle_snds_B",
+	"rhsusf_acc_nt4_black",
+	"bipod_01_F_blk"
 ];
 
 GRLIB_arsenal_backpacks = [
