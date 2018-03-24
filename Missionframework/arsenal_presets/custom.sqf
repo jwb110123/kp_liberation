@@ -720,7 +720,7 @@ GRLIB_arsenal_backpacks = [
 	"B_Parachute",
 	"ACE_NonSteerableParachute",
 	"ACE_TacticalLadder_Pack",
-  "B_AssaultPack_khk",
+  	"B_AssaultPack_khk",
 	"B_AssaultPack_dgtl",
 	"B_AssaultPack_rgr",
 	"B_AssaultPack_sgg",
