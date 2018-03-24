@@ -203,7 +203,7 @@ GRLIB_arsenal_magazines = [
 	"rhs_mag_maaws_ILLUM",
 	"rhs_mag_maaws_SMOKE",
 	"UK3CB_BAF_NLAW_Mag",
-	"30Rnd_9x21_Mag""
+	"30Rnd_9x21_Mag"
 ];
 
 GRLIB_arsenal_items = [
