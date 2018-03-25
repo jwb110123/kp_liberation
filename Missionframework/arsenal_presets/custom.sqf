@@ -208,8 +208,8 @@ GRLIB_arsenal_magazines = [
 	"NLAW_F",
 	"130Rnd_338_Mag",
 	"7Rnd_408_Mag",
-	"10Rnd_127x54_Mag"
-	"20Rnd_762x51_Mag"
+	"10Rnd_127x54_Mag",
+	"20Rnd_762x51_Mag",
 	"150Rnd_556x45_Drum_Mag_F",
 	"30Rnd_556x45_Stanag"
 ];
