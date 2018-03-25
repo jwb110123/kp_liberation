@@ -660,7 +660,8 @@ GRLIB_arsenal_items = [
 	"rhsusf_acc_nt4_black",
 	"bipod_01_F_blk",
 	"rhs_optic_maaws",
-	"NVGogglesB_blk_F"
+	"NVGogglesB_blk_F",
+	"optic_Nightstalker"
 ];
 
 GRLIB_arsenal_backpacks = [
