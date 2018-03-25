@@ -84,7 +84,8 @@ GRLIB_arsenal_weapons = [
 	"arifle_SPAR_03_blk_F",
 	"arifle_SPAR_03_khk_F",
 	"arifle_SPAR_03_snd_F",
-	"rhs_weap_maaws"
+	"rhs_weap_maaws",
+	"launch_NLAW_F"
 ];
 
 GRLIB_arsenal_magazines = [
@@ -203,7 +204,14 @@ GRLIB_arsenal_magazines = [
 	"rhs_mag_maaws_ILLUM",
 	"rhs_mag_maaws_SMOKE",
 	"UK3CB_BAF_NLAW_Mag",
-	"30Rnd_9x21_Mag"
+	"30Rnd_9x21_Mag",
+	"NLAW_F",
+	"130Rnd_338_Mag",
+	"7Rnd_408_Mag",
+	"10Rnd_127x54_Mag"
+	"20Rnd_762x51_Mag"
+	"150Rnd_556x45_Drum_Mag_F",
+	"30Rnd_556x45_Stanag"
 ];
 
 GRLIB_arsenal_items = [
@@ -650,7 +658,9 @@ GRLIB_arsenal_items = [
 	"muzzle_snds_M",
 	"muzzle_snds_B",
 	"rhsusf_acc_nt4_black",
-	"bipod_01_F_blk"
+	"bipod_01_F_blk",
+	"rhs_optic_maaws",
+	"NVGogglesB_blk_F"
 ];
 
 GRLIB_arsenal_backpacks = [
