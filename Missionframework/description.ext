@@ -18,6 +18,8 @@ joinUnassigned = 1;
 #include "ui\liberation_notifications.hpp"
 #include "ui\mission_params.hpp"
 
+cba_settings_hasSettingsFile = 1;
+
 class CfgDebriefing
 {
 	class End1
