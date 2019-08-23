@@ -121,10 +121,6 @@ air_vehicles = [
 	["B_UAV_06_F",80,0,30],												//AL-6 Pelican (Cargo)
 	["B_Heli_Light_01_F",200,0,100],									//MH-9 Hummingbird
 	["B_Heli_Light_01_dynamicLoadout_F",200,100,100],					//AH-9 Pawnee
-	/*
-	["I_Heli_light_03_unarmed_F",225,0,125],							//WY-55 Hellcat
-	["I_Heli_light_03_dynamicLoadout_F",225,200,125],					//WY-55 Hellcat (Armed)
-	*/
 	["UK3CB_BAF_Wildcat_AH1_TRN_8A_MTP",225,0,125],                     // Wildcat AH1 8 Transport (Unarmed)
     ["UK3CB_BAF_Wildcat_HMA2_TRN_8A_MTP",250,0,125],                    // Wildcat HMA2 8 Transport (Unarmed)
     ["UK3CB_BAF_Wildcat_AH1_CAS_6C_MTP",275,200,150],                   // Wildcat AH1 6 (CAS/AT)
@@ -376,7 +372,7 @@ elite_vehicles = [
 	"B_Plane_Fighter_01_Stealth_F",										//F/A-181 Black Wasp II (Stealth)
 	"B_T_VTOL_01_armed_F",												//V-44 X Blackfish (Armed)
 	"O_T_VTOL_02_infantry_dynamicLoadout_F",							// CSAT VTOL
-	"O_T_VTOL_02_vehicle_dynamicLoadout_F"								// CSAT VTOL (v)
+	"O_T_VTOL_02_vehicle_dynamicLoadout_F",								// CSAT VTOL (v)
     "B_UAV_02_dynamicLoadout_F",                                        // MQ-4A Greyhawk
     "B_T_UAV_03_dynamicLoadout_F",                                      // MQ-12 Falcon
     "B_UAV_05_F",                                                       // UCAV Sentinel
