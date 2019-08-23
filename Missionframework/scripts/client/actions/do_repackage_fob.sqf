@@ -15,12 +15,14 @@ if ( dorepackage > 0 ) then {
 
 	_fob = [] call F_getNearestFob;
 
-	if ( count _fob > 0 ) then {
-		GRLIB_all_fobs = GRLIB_all_fobs - [ _fob ];
-		publicVariable "GRLIB_all_fobs";
-	};
+    if (count _fob > 0) then {
+        GRLIB_all_fobs = GRLIB_all_fobs - [_fob];
+        KP_liberation_clearances deleteAt (KP_liberation_clearances findIf {(_x select 0) isEqualTo _fob});
+        publicVariable "GRLIB_all_fobs";
+        publicVariable "KP_liberation_clearances";
+    };
 
-	{ deleteVehicle _x }  foreach ( [ ( (getpos player) nearobjects [ FOB_typename, 250 ] ) , { getObjectType _x >= 8 } ] call BIS_fnc_conditionalSelect );
+	{deleteVehicle _x} foreach (((getpos player) nearobjects [ FOB_typename, 250 ]) select {getObjectType _x >= 8});
 
 	sleep 0.5;
 
@@ -33,6 +35,8 @@ if ( dorepackage > 0 ) then {
 	if ( dorepackage == 1 ) then {
 		_fobbox = FOB_box_typename createVehicle _spawnpos;
 		_fobbox call F_setFobMass;
+		// Add ViV actions to FOB Box
+		[_fobBox] remoteExecCall ["F_setLoadableViV", 0, _fobBox];
 	};
 
 	if ( dorepackage == 2 ) then {

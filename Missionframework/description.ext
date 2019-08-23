@@ -5,13 +5,28 @@ disabledAI = true;
 
 enableDebugConsole = 1;
 allowFunctionsLog = 0;
+unsafeCVL = 1;
 
-loadScreen="res\liberation.jpg";
-onLoadMission = "www.killahpotatoes.de";
-author = "... modified by JWB";
+
+briefingName = $STR_MISSION_TITLE;
+overviewText = "www.killahpotatoes.de";
+overviewPicture = "res\lib.paa";
+author = "[GREUH] Zbug, [GREUH] McKeewa, [KP] Wyqer", modified by JWB;
 onLoadName = $STR_MISSION_TITLE;
+onLoadMission = "www.killahpotatoes.de";
+loadScreen = "res\lib.paa";
 
 joinUnassigned = 1;
+
+corpseManagerMode = 1;
+corpseLimit = 50;
+corpseRemovalMinTime = 600;
+corpseRemovalMaxTime = 3600;
+wreckManagerMode = 1;
+wreckLimit = 20;
+wreckRemovalMinTime = 1200;
+wreckRemovalMaxTime = 7200;
+minPlayerDistance = 1000;
 
 #include "GREUH\UI\GREUH_interface.hpp"
 #include "ui\liberation_interface.hpp"

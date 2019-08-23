@@ -2,7 +2,15 @@
 
 # KP Liberation for ArmA 3
 
-## Current version : 0.963
+[![license](https://img.shields.io/github/license/KillahPotatoes/KP-Liberation.svg)](https://github.com/KillahPotatoes/KP-Liberation/LICENSE.md)
+[![GitHub release](https://img.shields.io/github/release/KillahPotatoes/KP-Liberation.svg)](https://github.com/KillahPotatoes/KP-Liberation/releases)
+[![GitHub Release Date](https://img.shields.io/github/release-date/KillahPotatoes/KP-Liberation.svg)](https://github.com/KillahPotatoes/KP-Liberation/releases)
+[![Github All Releases](https://img.shields.io/github/downloads/KillahPotatoes/KP-Liberation/total.svg)](https://github.com/KillahPotatoes/KP-Liberation)
+
+[![GitHub issues](https://img.shields.io/github/issues-raw/KillahPotatoes/KP-Liberation.svg)](https://github.com/KillahPotatoes/KP-Liberation/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/KillahPotatoes/KP-Liberation.svg)](https://github.com/KillahPotatoes/KP-Liberation/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/KillahPotatoes/KP-Liberation.svg)](https://github.com/KillahPotatoes/KP-Liberation/pulls)
+[![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/KillahPotatoes/KP-Liberation.svg)](https://github.com/KillahPotatoes/KP-Liberation/pulls?q=is%3Apr+is%3Aclosed)
 
 [BI Forum Thread](https://forums.bistudio.com/topic/202711-mpcti-coop-liberation-continued/)
 
@@ -19,10 +27,10 @@ If you like the work and think it's worth a small donation, feel free to use the
 [Donate via paypal.me](https://www.paypal.me/wyqer)
 
 ## Overview
-The area has fallen to the enemy, and it is up to you to take it back. Embark on a persistent campaign with your teammates to liberate all the major cities of the area that will span several weeks of real time.
+The area has fallen to the enemy, and it is up to you to take it back. Embark on a persistent campaign with your teammates to liberate all the major cities of the area that will most likely span several weeks of real time.
 * Experience a massive “Capture the Island” campaign involving a large range of different settlements across the entire area.
 * Cooperate with up to 34 players, including a Commanding role, two fire-team squads, a medevac and a logistical support squad as well as AI recruits to fill the gaps.
-* Purchase both infantry and vehicles (both ground and air) using three different types of physical resources; supplies, ammunition and fuel.
+* Purchase both infantry and both ground and air vehicles using three different types of physical resources; supplies, ammunition and fuel.
 * Build the FOB of your dreams with an in-game "what you see is what you get" system.
 * Play within an immersive engine that not only punishes you for civilian casualty but diversely reacts in turn.
 * Combat aggressive and cunning hostile forces who react and adapt to your actions.
@@ -31,61 +39,70 @@ The area has fallen to the enemy, and it is up to you to take it back. Embark on
 * Accomplish meaningful secondary objectives that will benefit your progression.
 * Never lose your progress with the built-in server-side save system.
 
-## Public Servers
-
-### KP Liberation by www.killahpotatoes.de
-* IP: 213.133.110.170
-* Port: 2302
-* Needed Mods: None
-* Admin: [jus61](https://www.killahpotatoes.de/index.php?user/2-jus61/)
-
 ## Needed Mods
-These mods are needed if you want to use the prepacked missionfiles from the release tab or Steam Workshop.
+These mods are needed if you want to use the prepackaged missionfiles from the release tab or Steam Workshop.
 You can play every map without any mods (only the maps themself) if you set the preset to custom in the file `kp_liberation_config`.
 * Al Rayak
-	* [CUP Terrains - Core](http://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
-	* [CUP Terrains - Maps](http://steamcommunity.com/sharedfiles/filedetails/?id=583544987)
-	* [G.O.S Al Rayak](http://steamcommunity.com/sharedfiles/filedetails/?id=648172507)
-	* [RHS: Armed Forces of the Russian Federation](http://steamcommunity.com/sharedfiles/filedetails/?id=843425103)
-	* [RHS: United States Forces](http://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
+    * [CUP Terrains - Core](http://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
+    * [CUP Terrains - Maps](http://steamcommunity.com/sharedfiles/filedetails/?id=583544987)
+    * [G.O.S Al Rayak](http://steamcommunity.com/sharedfiles/filedetails/?id=648172507)
+    * [RHS: Armed Forces of the Russian Federation](http://steamcommunity.com/sharedfiles/filedetails/?id=843425103)
+    * [RHS: United States Forces](http://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
 * Altis
-	* None
+    * None
 * Chernarus
-	* [CUP Terrains - Core](http://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
-	* [CUP Terrains - Maps](http://steamcommunity.com/sharedfiles/filedetails/?id=583544987)
-	* [RHS: Armed Forces of the Russian Federation](http://steamcommunity.com/sharedfiles/filedetails/?id=843425103)
-	* [RHS: United States Forces](http://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
-	* Recommended for more enterable buildings on Chernarus
-		* [DonkeyPunch.INFO Open Chernarus Project](http://steamcommunity.com/sharedfiles/filedetails/?id=786777307)
+    * [CUP Terrains - Core](http://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
+    * [CUP Terrains - Maps](http://steamcommunity.com/sharedfiles/filedetails/?id=583544987)
+    * [RHS: Armed Forces of the Russian Federation](http://steamcommunity.com/sharedfiles/filedetails/?id=843425103)
+    * [RHS: United States Forces](http://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
+* Chernarus Winter
+    * [CUP Terrains - Core](http://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
+    * [CUP Terrains - Maps](http://steamcommunity.com/sharedfiles/filedetails/?id=583544987)
+    * [RHS: Armed Forces of the Russian Federation](http://steamcommunity.com/sharedfiles/filedetails/?id=843425103)
+    * [RHS: United States Forces](http://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
+* Livonia
+    * Contact DLC
 * Lythium
-	* [Jbad](http://steamcommunity.com/sharedfiles/filedetails/?id=520618345)
-	* [Lythium](http://steamcommunity.com/sharedfiles/filedetails/?id=909547724)
-	* [Project OPFOR](http://steamcommunity.com/sharedfiles/filedetails/?id=735566597)
-	* [RHS: Armed Forces of the Russian Federation](http://steamcommunity.com/sharedfiles/filedetails/?id=843425103)
-	* [RHS: United States Forces](http://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
+    * [Jbad](http://steamcommunity.com/sharedfiles/filedetails/?id=520618345)
+    * [Lythium](http://steamcommunity.com/sharedfiles/filedetails/?id=909547724)
+    * [Project OPFOR](http://steamcommunity.com/sharedfiles/filedetails/?id=735566597)
+    * [RHS: Armed Forces of the Russian Federation](http://steamcommunity.com/sharedfiles/filedetails/?id=843425103)
+    * [RHS: United States Forces](http://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
 * Malden
-	* None
+    * None
+* Panthera
+    * [CUP Terrains - Core](http://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
+    * [CUP Units](https://steamcommunity.com/sharedfiles/filedetails/?id=497661914)
+    * [CUP Vehicles](https://steamcommunity.com/sharedfiles/filedetails/?id=541888371)
+    * [CUP Weapons](https://steamcommunity.com/sharedfiles/filedetails/?id=497660133)
+    * [Island Panthera](https://steamcommunity.com/sharedfiles/filedetails/?id=708278910)
 * Sahrani
-	* [CUP Terrains - Core](http://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
-	* [CUP Terrains - Maps](http://steamcommunity.com/sharedfiles/filedetails/?id=583544987)
-	* [RHS: Armed Forces of the Russian Federation](http://steamcommunity.com/sharedfiles/filedetails/?id=843425103)
-	* [RHS: United States Forces](http://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
+    * [CUP Terrains - Core](http://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
+    * [CUP Terrains - Maps](http://steamcommunity.com/sharedfiles/filedetails/?id=583544987)
+    * [RHS: Armed Forces of the Russian Federation](http://steamcommunity.com/sharedfiles/filedetails/?id=843425103)
+    * [RHS: United States Forces](http://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
+* Song Bin Tanh
+    * [The Unsung Vietnam War Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=943001311)
 * Takistan
-	* [CUP Terrains - Core](http://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
-	* [CUP Terrains - Maps](http://steamcommunity.com/sharedfiles/filedetails/?id=583544987)
-	* [Project OPFOR](http://steamcommunity.com/sharedfiles/filedetails/?id=735566597)
-	* [RHS: Armed Forces of the Russian Federation](http://steamcommunity.com/sharedfiles/filedetails/?id=843425103)
-	* [RHS: United States Forces](http://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
+    * [CUP Terrains - Core](http://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
+    * [CUP Terrains - Maps](http://steamcommunity.com/sharedfiles/filedetails/?id=583544987)
+    * [Project OPFOR](http://steamcommunity.com/sharedfiles/filedetails/?id=735566597)
+    * [RHS: Armed Forces of the Russian Federation](http://steamcommunity.com/sharedfiles/filedetails/?id=843425103)
+    * [RHS: United States Forces](http://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
 * Tanoa
-	* None
+    * Apex DLC
 * Taunus (very resource-intensive map)
-	* [BWMod](http://steamcommunity.com/sharedfiles/filedetails/?id=1200127537)
-	* [CBA A3](http://steamcommunity.com/sharedfiles/filedetails/?id=450814997)
-	* [CUP Terrains - Core](http://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
-	* [CUP Terrains - Maps](http://steamcommunity.com/sharedfiles/filedetails/?id=583544987)
-	* [RHS: Armed Forces of the Russian Federation](http://steamcommunity.com/sharedfiles/filedetails/?id=843425103)
-	* [RHS: United States Forces](http://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
-	* [X-Cam-Taunus (Version 1.1)](http://steamcommunity.com/sharedfiles/filedetails/?id=836147398)
+    * [BWMod](http://steamcommunity.com/sharedfiles/filedetails/?id=1200127537)
+    * [CBA A3](http://steamcommunity.com/sharedfiles/filedetails/?id=450814997)
+    * [CUP Terrains - Core](http://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
+    * [CUP Terrains - Maps](http://steamcommunity.com/sharedfiles/filedetails/?id=583544987)
+    * [RHS: Armed Forces of the Russian Federation](http://steamcommunity.com/sharedfiles/filedetails/?id=843425103)
+    * [RHS: United States Forces](http://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
+    * [X-Cam-Taunus (Version 1.1)](http://steamcommunity.com/sharedfiles/filedetails/?id=836147398)
+* Weferlingen
+    * Global Mobilization CDLC
+* Weferlingen Winter
+    * Global Mobilization CDLC
 
 ## Recommended Mods
 These mods are recommended by us, as they are likely to increase your gaming experience:
@@ -103,7 +120,7 @@ These mods are recommended by us, as they are likely to increase your gaming exp
 * [KP Ranks](http://steamcommunity.com/sharedfiles/filedetails/?id=741621641)
 * [LAxemann's Suppress](https://steamcommunity.com/sharedfiles/filedetails/?id=825174634)
 
-Also you should think about using these mods as serverside mods: 
+Also you should think about using these mods as serverside mods:
 * [Advanced Rappeling](http://steamcommunity.com/sharedfiles/filedetails/?id=713709341)
 * [Advanced Sling Loading](http://steamcommunity.com/sharedfiles/filedetails/?id=615007497)
 * [Advanced Towing](http://steamcommunity.com/sharedfiles/filedetails/?id=639837898)
@@ -111,34 +128,43 @@ Also you should think about using these mods as serverside mods:
 ## Recommended Difficulty Settings
 I recommend using the following difficulty settings for this mission (User profile of your server):
 ```
-class CustomDifficulty
+difficulty="Custom";
+class DifficultyPresets
 {
-	class Options
-	{
-		groupIndicators=0;
-		friendlyTags=0;
-		enemyTags=0;
-		detectedMines=0;
-		commands=0;
-		waypoints=0;
-		weaponInfo=1;
-		stanceIndicator=1;
-		reducedDamage=0;
-		staminaBar=0;
-		weaponCrosshair=0;
-		visionAid=0;
-		thirdPersonView=0;
-		cameraShake=1;
-		scoreTable=0;
-		deathMessages=0;
-		vonID=1;
-		mapContent=0;
-		autoReport=0;
-		multipleSaves=0;
-		squadRadar=0;
-		tacticalPing=0;
-	};
-	aiLevelPreset=1;
+    class CustomDifficulty
+    {
+        class Options
+        {
+            groupIndicators=0;
+            friendlyTags=0;
+            enemyTags=0;
+            detectedMines=0;
+            commands=0;
+            waypoints=0;
+            weaponInfo=1;
+            stanceIndicator=1;
+            reducedDamage=0;
+            staminaBar=0;
+            weaponCrosshair=0;
+            visionAid=0;
+            thirdPersonView=0;
+            cameraShake=1;
+            scoreTable=0;
+            deathMessages=0;
+            vonID=1;
+            mapContent=0;
+            autoReport=0;
+            multipleSaves=0;
+            squadRadar=0;
+            tacticalPing=0;
+        };
+        aiLevelPreset=3;
+    };
+    class CustomAILevel
+    {
+        skillAI=1.0;
+        precisionAI=0.15;
+    };
 };
 ```
 
@@ -148,11 +174,11 @@ forcedDifficulty = "custom";
 
 class Missions
 {
-	class kp_liberation
-	{
-		template = "kp_liberation.Altis";
-		difficulty = "custom";
-	};
+    class kp_liberation
+    {
+        template = "kp_liberation.Altis";
+        difficulty = "custom";
+    };
 };
 ```
 
@@ -160,6 +186,134 @@ class Missions
 [![Gameplay](http://img.youtube.com/vi/ULSxjp8cIUM/0.jpg)](https://www.youtube.com/watch?v=ULSxjp8cIUM)
 
 ## Changelog
+
+### 0.96.5 (26th July 2019 due to Contacts Release)
+* Added: Contact DLC LDF preset.
+* Added: Contact DLC transport configs.
+* Added: [The Unsung Vietnam War Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=943001311) blufor preset.
+* Added: [The Unsung Vietnam War Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=943001311) opfor preset.
+* Added: [The Unsung Vietnam War Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=943001311) resistance preset. Thanks to [Bunnyhopps](https://github.com/Bunnyhopps147)
+* Added: [The Unsung Vietnam War Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=943001311) civilian preset.
+* Added: [The Unsung Vietnam War Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=943001311) arsenal preset. Thanks to [Bunnyhopps](https://github.com/Bunnyhopps147)
+* Added: [The Unsung Vietnam War Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=943001311) transport configs.
+* Added: [Swedish Forces Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=826911897) arsenal preset. Thanks to [Dahlgren](https://github.com/Dahlgren)
+* Added: [Swedish Forces Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=826911897) Desert blufor preset. Thanks to [Dahlgren](https://github.com/Dahlgren)
+* Added: [Swedish Forces Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=826911897) Woodland blufor preset. Thanks to [Dahlgren](https://github.com/Dahlgren)
+* Added: Several CUP blufor presets. Thanks to [Eogos](https://github.com/Eogos)
+* Added: Several CUP opfor presets. Thanks to [Eogos](https://github.com/Eogos)
+* Added: Several CUP resistance presets. Thanks to [Eogos](https://github.com/Eogos)
+* Added: Several CUP civilian presets. Thanks to [Eogos](https://github.com/Eogos)
+* Added: Several CUP transport configs. Thanks to [Eogos](https://github.com/Eogos)
+* Added: Statistic values for destroyed civilian buildings and vehicles.
+* Added: Statistic values for total and friendly resistance kills.
+* Added: Statistic values for spent/produced resources.
+* Added: Statistics will be posted additionally in the server log after winning the campaign.
+* Added: Encore Anti Air static to sensible presets.
+* Added: Additional victory conditions, selectable in the mission parameters.
+* Added: BI garbage collection via description.ext file.
+* Added: Transport configs for the civil transporters (which came with Laws of War).
+* Added: Livonia basefile.
+* Added: Livonia building ignore list.
+* Added: [Island Panthera](https://steamcommunity.com/sharedfiles/filedetails/?id=708278910) basefile. Thanks to [Eogos](https://github.com/Eogos)
+* Added: [Island Panthera](https://steamcommunity.com/sharedfiles/filedetails/?id=708278910) building ignore list. Thanks to [Eogos](https://github.com/Eogos)
+* Added: Song Bin Tanh basefile.
+* Added: Song Bin Tanh building ignore list.
+* Added: "Create Clearance" Action at FOB for Commander or logged in Admin. Clears all terrain objects (no built objects) in FOB radius.
+* Added: FOB templates (FOB hunting) are now choosen in accordance with the selected opfor preset. Currently Unsung, Apex and "everything else" are separated. Thanks to [Bunnyhopps](https://github.com/Bunnyhopps147)
+* Added: 15 new FOB templates for the FOB hunting side mission. Thanks to [Bunnyhopps](https://github.com/Bunnyhopps147)
+* Removed: Vanilla player score saving.
+* Removed: Old garbage collection script, as there are now engine solutions available.
+* Tweaked: Changed default recycle building from carservice building to tanks repair depot building.
+* Tweaked: Changed default air building from small radar dome to encore static radar.
+* Tweaked: Vehicle in Vehicle action on FOB box is not displaying directly anymore when approaching the box.
+* Tweaked: Added elite vehicles to CSAT presets.
+* Tweaked: Formatting/Comments in the preset files.
+* Tweaked: objectInit function and added comments to the array.
+* Tweaked: Some smaller code optimizations in the whole framework.
+* Tweaked: Changes in elite vehicles in presets are now also applied during a running campaign.
+* Tweaked: Player lead squads are now also saved near FOBs. (but still needs to be reassigned via zeus after load, of course)
+* Tweaked: Weather is now only handled by the server.
+* Tweaked: Gear check after leaving the arsenal or load a loadout improved to not strip you completely. Thanks to [Zharf](https://github.com/zharf)
+* Tweaked: Build tool now also adds the correct map name to the mission name, like in the release files.
+* Tweaked: Sector defenders waypoint creation.
+* Tweaked: Daytime parameter values.
+* Tweaked: Shorter nights now multiplies the selected daytime time multiplier by 4 between 20:00 and 04:00. (3x between 21:00 and 03:00 before)
+* Fixed: Intel value could get corrupted if leaving the secondary dialog directly after starting a mission.
+* Fixed: "All is red" for first player after a server restart. (just a visual bug, doesn't affect gameplay)
+
+### 0.96.4 (10th May 2019 due to Global Mobilization Release)
+* Added: East Germany arsenal preset.
+* Added: West Germany arsenal preset. Thanks to [Dahlgren](https://github.com/Dahlgren)
+* Added: East Germany blufor and opfor preset.
+* Added: East Germany Winter blufor and opfor preset.
+* Added: West Germany blufor and opfor preset.
+* Added: West Germany Winter blufor and opfor preset.
+* Added: Germany (Global Mobilization) resistence preset.
+* Added: Germany (Global Mobilization) civilian preset.
+* Added: CSAT Vanilla blufor preset, CSAT Apex blufor preset and CSAT Arsenal preset. Thanks to [zandru](https://steamcommunity.com/id/radicalrabbit)
+* Added: AAF and NATO opfor presets. Thanks to [zandru](https://steamcommunity.com/id/radicalrabbit)
+* Added: Weferlingen Summer basefile.
+* Added: Weferlingen Winter basefile.
+* Added: Chernarus Winter basefile.
+* Added: Weferlingen Summer and Winter building ignore list.
+* Added: Rosche building ignore list. Thanks to [madpat3](https://github.com/madpat3)
+* Added: Support for ACE arsenal. Can be enabled via mission parameter.
+* Added: Fog removal script readded, as some people had issues with too much fog after some time.
+* Added: Vehicle in Vehicle transport actions for FOB Box.
+* Added: `kp_objectInits.sqf` for custom code on a vehicle after it has been loaded or built. No more changes in save_manager.sqf and do_build.sqf needed. [Explanation in the Wiki](https://github.com/KillahPotatoes/KP-Liberation/wiki/EN_ConfigFiles#kp_objectinitsqf-since-0964)
+* Removed: `KP_liberation_guerilla_transports` array from resistance presets, as it isn't used in the legacy framework.
+* Updated: Italian localization. Thanks to [k4s0](https://github.com/k4s0)
+* Tweaked: Title of the mission to conform the Mission Name Standard from [BI Forums](https://forums.bohemia.net/forums/topic/217676-mission-name-standard/)
+* Tweaked: Weather module is also loaded, even with ACE running. (ACE doesn't control weather completely anymore)
+* Tweaked: Disabled script that switched locality of all blufor units to the commander machine. (should fix UAV issue)
+* Tweaked: `allPlayers` replaced with `(allPlayers - entities "HeadlessClient_F")` for scripts which should pause when no players are online. (logistic, resources, battlegroups)
+* Tweaked: Marker for civilian informant is an area now and not centered on the informants position anymore.
+* Tweaked: Renamed Huron marker.
+* Tweaked: If there isn't enough enemy territory left for a secondary mission to start, the player gets a small hint now.
+* Tweaked: BWMod item classnames in KP_liberation_allowed_items_extension. Thanks to [madpat3](https://github.com/madpat3)
+* Tweaked: Equalized all Eden attributes of the mission.sqm files.
+* Tweaked: Replaced deprecated `BIS_fnc_conditionalSelect` function calls with sensible select statements.
+* Tweaked: Versioning format from e.g. 0.964 to 0.96.4 for a better separation.
+* Tweaked: Arsenal whitelist/blacklist classes are case insensitive.
+* Tweaked: Vehicle permissions now via sensible event handlers instead of loop. Thanks to [ColinM9991](https://github.com/ColinM9991)
+* Tweaked: Objects placed in Eden Editor won't be saved anymore. Fixes possible duplications on save/load.
+* Tweaked: Whole in game date and time is now persistent, not only the daytime.
+* Fixed: Annoying popup since A3 1.90 concerning missing entry for `widthRailWay`.
+* Fixed: Blufor soldier losses weren't counted in statistics.
+* Fixed: Missing `itemRadio` in some arsenal presets.
+
+### 0.963a (10th April 2018 as "legacy support" release)
+* Added: Action to raise/lower object while building. Thanks to [darrell-aevum](https://github.com/darrell-aevum)
+* Added: Some classnames to arsenal allowed extension list. Thanks to [madpat3](https://github.com/madpat3)
+* Added: Functionality to save/load mission parameters. Thanks to [veteran29](https://github.com/veteran29)
+* Added: Presets for: RDS Civilians, Project OPFOR SLA and Project OPFOR RACS. Thanks to [PSYKO-nz](https://github.com/PSYKO-nz)
+* Added: Automatic mission pbo build tool (available on GitHub). Thanks to [Dahlgren](https://github.com/Dahlgren) and [veteran29](https://github.com/veteran29)
+* Added: Tanks DLC classnames for presets.
+* Added: Group diag output for serverlog.
+* Added: Debug output for group count and amount of active scripts. Liberation starts with [13,70,0,1] and may rise to [70,70,0,1].
+* Added: Notification for incoming guerilla forces when attacking a sector.
+* Added: Vehicle chance for guerilla forces who approach a sector.
+* Added: Traditional Chinese localization. Thanks to [KOEI5113](https://github.com/KOEI5113)
+* Added: IDE editorconfig file.
+* Added: Overview of actual applied mission parameters on the map screen as diary record.
+* Removed: Some old scripts which aren't needed anymore.
+* Removed: Always no fog.
+* Tweaked: All `spawn compileFinal preprocessFileLineNumbers` replaced with `execVM`.
+* Tweaked: All `createGroup` now with activated `deleteWhenEmpty`.
+* Tweaked: All `BIS_fnc_relPos` replaced with `getPos`.
+* Tweaked: Guerilla forces event chances, strength gain values and unit amounts.
+* Tweaked: The Commander / Admin can now change the permissions of offline players.
+* Tweaked: BI Revive is now automatically deactivated if ACE Medical is loaded.
+* Tweaked: FPS map marker is now below the map and also shows count of local groups.
+* Tweaked: Overview picture for loading and mission selection screen.
+* Tweaked: Log output source name is now set at each run.
+* Fixed: Placement of buildings after save/load. Thanks to [Cre8or](https://github.com/Cre8or)
+* Fixed: Sometimes helicopters exploded when spawning on the deck of the USS Freedom.
+* Fixed: Players couldn't ziptie the civilian informant, if playing with ACE.
+* Fixed: File name instead of mission name in mission selection screen.
+* Fixed: "Taking Command" spam from AI after players death.
+* Fixed: Fixed range for recycling and start of building instead of using FOB range.
+* Fixed: Some vehicles with dynamic loadout support lost their weapons when rearmed by Liberation rearm module.
 
 ### 0.963 (05th January 2018)
 * Added: Some missing RHS vehicles for the ACE medical system.
@@ -212,30 +366,30 @@ class Missions
 
 ### 0.96 (12th October 2017)
 * Added: BI Support System functionality. (Currently deactivated, as there are still issues in MP)
-	* Added: Parameter for access to the Support System -> Disabled, Commander, Whitelist, Everyone.
-	* Added: BI Artillery support for artillery vehicles and mortars (if built manned or AI ordered to get in as crew).
-	* Added: Players can request artillery support from players (generates task).
+    * Added: Parameter for access to the Support System -> Disabled, Commander, Whitelist, Everyone.
+    * Added: BI Artillery support for artillery vehicles and mortars (if built manned or AI ordered to get in as crew).
+    * Added: Players can request artillery support from players (generates task).
 * Added: Civil Reputation.
-	* Added: Config variables in `kp_liberation_config.sqf`.
-	* Added: Reputation penalty for killing civilians.
-	* Added: Reputation penalty for killing allied resistance fighters.
-	* Added: Reputation penalty for seizing civil vehicles.
-	* Added: Reputation penalty for destroyed/damaged civil buildings. (evaluated only on capture a sector event)
-	* Added: Mission parameter to choose building penalty for damaged or only destroyed buildings.
-	* Added: Reputation gain for liberated sectors.
-	* Added: After capturing a sector you might find wounded civilians. You can also gain reputation for offering medical support.
+    * Added: Config variables in `kp_liberation_config.sqf`.
+    * Added: Reputation penalty for killing civilians.
+    * Added: Reputation penalty for killing allied resistance fighters.
+    * Added: Reputation penalty for seizing civil vehicles.
+    * Added: Reputation penalty for destroyed/damaged civil buildings. (evaluated only on capture a sector event)
+    * Added: Mission parameter to choose building penalty for damaged or only destroyed buildings.
+    * Added: Reputation gain for liberated sectors.
+    * Added: After capturing a sector you might find wounded civilians. You can also gain reputation for offering medical support.
 * Added: Civil informant.
-	* Added: If you've a good reputation, a civil informant can rarely spawn at blufor sectors.
-	* Added: Intel increase, if you capture the informant and bring him back to a FOB.
-	* Added: There is a chance that an informant will reveal a time critical task to kill a HVT.
+    * Added: If you've a good reputation, a civil informant can rarely spawn at blufor sectors.
+    * Added: Intel increase, if you capture the informant and bring him back to a FOB.
+    * Added: There is a chance that an informant will reveal a time critical task to kill a HVT.
 * Added: Asymmetric Threats.
-	* Added: Possibility of IEDs in blufor sectors, if you have a bad civil reputation.
-	* Added: Own logistic convoys can be ambushed by guerilla forces.
-	* Added: Value for guerilla strength which will be affected by the events connected to guerilla forces.
-	* Added: Guerilla forces presets.
-	* Added: Dynamic guerilla forces equipment depending on their strength value.
-	* Added: Chance that guerilla forces will join the fight at a sector as friend or foe. (depends on reputation)
-	* Added: Possibility of a guerilla ambush in blufor sectors (additional to IEDs).
+    * Added: Possibility of IEDs in blufor sectors, if you have a bad civil reputation.
+    * Added: Own logistic convoys can be ambushed by guerilla forces.
+    * Added: Value for guerilla strength which will be affected by the events connected to guerilla forces.
+    * Added: Guerilla forces presets.
+    * Added: Dynamic guerilla forces equipment depending on their strength value.
+    * Added: Chance that guerilla forces will join the fight at a sector as friend or foe. (depends on reputation)
+    * Added: Possibility of a guerilla ambush in blufor sectors (additional to IEDs).
 * Added: Chinese Simplified localization. Thanks to [nercon](https://github.com/nercon)
 * Added: Automatic server restart script for dedicated servers. Thanks to [k4s0](https://github.com/k4s0)
 * Added: Settings in the mission parameters for particular debug messages.
@@ -429,20 +583,20 @@ class Missions
 * Added: Custom made Chimera Base for X-Cam-Taunus. Thanks to [jus61](https://github.com/jus61) for building it
 * Added: Custom made Chimera Base for Chernarus. Thanks to [Enigma](http://steamcommunity.com/profiles/76561198052767508) for building it
 * Added: Arsenal whitelist preset system (change via `kp_liberation_config.sqf`)
-	* Use blacklist from unit preset (default)
-	* custom whitelist file
-	* KP Community Selection
-	* RHS USAF
-	* RHS USAF with ACE3
-	* RHS USAF with ACE3 and ACRE2
+    * Use blacklist from unit preset (default)
+    * custom whitelist file
+    * KP Community Selection
+    * RHS USAF
+    * RHS USAF with ACE3
+    * RHS USAF with ACE3 and ACRE2
 * Removed: Dependencies on Takistan missionfile
 * Removed: Apex dependencies on Chernarus missionfile (custom chimera base had two apex rocks)
 * Removed: Apex dependencies on Taunus missionfile
 * Replaced: Old hostile markers (exclamation marks) with a unit count sensitive area marking system
 * Tweaked: Presets
-	* custom.sqf is now default (vanilla is a kind of legacy now)
-	* Vehicle ammo prices are raised to make them more valuable
-	* Provided custom.sqf now adapt automaticly to installed mods
+    * custom.sqf is now default (vanilla is a kind of legacy now)
+    * Vehicle ammo prices are raised to make them more valuable
+    * Provided custom.sqf now adapt automaticly to installed mods
 * Fixed: Falling Little Birds on LHD
 * Fixed: Custom flag texture not applied after savegame load
 * Fixed: Mapmarker disable won't work

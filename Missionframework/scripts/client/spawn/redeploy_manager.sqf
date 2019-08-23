@@ -60,20 +60,26 @@ while {true} do {
 	_standard_map_pos = ctrlPosition ((findDisplay 5201) displayCtrl 251);
 	_frame_pos = ctrlPosition ((findDisplay 5201) displayCtrl 198);
 
-	private _saved_loadouts = profileNamespace getVariable "bis_fnc_saveInventory_data";
-	private _loadouts_data = [];
-	private _counter = 0;
-	if (!isNil "_saved_loadouts") then {
-		{
-			if (_counter % 2 == 0) then {
-				_loadouts_data pushback _x;
-			};
-			_counter = _counter + 1;
-		} forEach _saved_loadouts;
+	// Get loadouts either from ACE or BI arsenals
+	private ["_loadouts_data"];
+	if (KP_liberation_ace && KP_liberation_arsenal_type) then {
+		_loadouts_data = +(profileNamespace getVariable ["ace_arsenal_saved_loadouts", []]);
+	} else {
+		private _saved_loadouts = +(profileNamespace getVariable "bis_fnc_saveInventory_data");
+		_loadouts_data = [];
+		private _counter = 0;
+		if (!isNil "_saved_loadouts") then {
+			{
+				if (_counter % 2 == 0) then {
+					_loadouts_data pushback _x;
+				};
+				_counter = _counter + 1;
+			} forEach _saved_loadouts;
+		};
 	};
 
 	lbAdd [203, "--"];
-	{lbAdd [203, _x];} forEach _loadouts_data;
+	{lbAdd [203, _x param [0]]} forEach _loadouts_data;
 	lbSetCurSel [203, 0];
 
 	while {dialog && alive player && deploy == 0} do {
@@ -90,7 +96,7 @@ while {true} do {
 				for [ {_idx=0},{_idx < count _respawn_trucks},{_idx=_idx+1} ] do {
 					choiceslist = choiceslist + [[format ["%1 - %2", localize "STR_RESPAWN_TRUCK",mapGridPosition (getposATL (_respawn_trucks select _idx))],getposATL (_respawn_trucks select _idx),(_respawn_trucks select _idx)]];
 				};
-			};	
+			};
 		};
 
 		lbClear 201;
@@ -155,7 +161,7 @@ while {true} do {
 
 		if (count (choiceslist select _idxchoice) == 3) then {
 			private _truck = (choiceslist select _idxchoice) select 2;
-			player setposATL ([_truck, 5 + (random 3), random 360] call BIS_fnc_relPos);
+			player setposATL (_truck getPos [5 + (random 3), random 360]);
 			KP_liberation_respawn_mobile_done = true;
 		} else {
 			private _destpos = ((choiceslist select _idxchoice) select 1);
@@ -163,7 +169,12 @@ while {true} do {
 		};
 
 		if ((lbCurSel 203) > 0) then {
-			[player, [profileNamespace, _loadouts_data select ((lbCurSel 203) - 1)]] call bis_fnc_loadInventory;
+			private _selectedLoadout = _loadouts_data select ((lbCurSel 203) - 1);
+			if (KP_liberation_ace && KP_liberation_arsenal_type) then {
+				player setUnitLoadout (_selectedLoadout select 1);
+			} else {
+				[player, [profileNamespace, _selectedLoadout]] call BIS_fnc_loadInventory;
+			};
 		};
 	};
 
@@ -184,7 +195,7 @@ while {true} do {
 			KP_liberation_respawn_mobile_done = false;
 		};
 	};
-	
+
 	if (KP_liberation_arsenalUsePreset) then {
 		[_backpack] call F_checkGear;
 	};
@@ -194,32 +205,4 @@ while {true} do {
 		uiSleep 12;
 		hint "";
 	};
-
-	// Arty Supp deactivated for now
-	/*if (KP_liberation_suppMod_enb > 0) then {
-		waitUntil {sleep 1; (!isNil "KP_liberation_suppMod_grp") && (!isNil "KP_liberation_suppMod_arty")};
-		private _access = false;
-		switch (KP_liberation_suppMod_enb) do {
-			case 1: {if (player == ([] call F_getCommander)) then {_access = true};};
-			case 2: {if ((getPlayerUID player) in KP_liberation_suppMod_whitelist) then {_access = true};};
-			default {_access = true;};
-		};
-		if (_access) then {
-			if (isNil "KP_liberation_suppMod_handle") then {KP_liberation_suppMod_handle = scriptNull;};
-			if (isNull KP_liberation_suppMod_handle) then {
-				KP_liberation_suppMod_handle = [KP_liberation_suppMod_arty] execVM "A3\modules_f\supports\init_provider.sqf";
-			};
-			if (isNil "KP_liberation_suppMod_req") then {
-				KP_liberation_suppMod_req = KP_liberation_suppMod_grp createUnit ["SupportRequester", KP_liberation_suppMod_grp, [], 0, "NONE"];
-				//KP_liberation_suppMod_req spawn BIS_fnc_moduleSupportsInitRequester;
-				[KP_liberation_suppMod_req] execVM "A3\modules_f\supports\init_requester.sqf";
-				{
-					[KP_liberation_suppMod_req, _x, -1] call BIS_fnc_limitSupport;
-				} forEach ["Artillery","CAS_Heli","CAS_Bombing","UAV","Drop","Transport"];
-			};
-			if ((count (synchronizedObjects player)) == 0) then {
-				[player, KP_liberation_suppMod_req, KP_liberation_suppMod_arty] call BIS_fnc_addSupportLink;
-			};
-		};
-	};*/
 };
