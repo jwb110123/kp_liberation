@@ -89,7 +89,6 @@ GRLIB_arsenal_weapons = [
 ];
 
 GRLIB_arsenal_magazines = [
-	"UK3CB_BAF_HandGrenade_Blank",
 	"UK3CB_BAF_9_17Rnd",
 	"UK3CB_BAF_9_30Rnd",
 	"UK3CB_BAF_127_10Rnd",
@@ -126,7 +125,6 @@ GRLIB_arsenal_magazines = [
 	"UK3CB_BAF_762_L42A1_20Rnd_T",
 	"UK3CB_BAF_1Rnd_HE_Grenade_Shell",
 	"UK3CB_BAF_1Rnd_HEDP_Grenade_Shell",
-	"UK3CB_BAF_1Rnd_Blank_Grenade_Shell",
 	"UK3CB_BAF_UGL_FlareWhite_F",
 	"UK3CB_BAF_UGL_FlareRed_F",
 	"UK3CB_BAF_UGL_FlareGreen_F",

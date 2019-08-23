@@ -9,8 +9,8 @@ if (KP_liberation_production_debug > 0) then {diag_log "[KP LIBERATION] [PRODUCT
 while {GRLIB_endgame == 0} do {
 
 	recalculate_sectors = false;
-	
-	if (((count allPlayers) > 0) && ((count KP_liberation_production) > 0)) then {
+
+	if (((count (allPlayers - entities "HeadlessClient_F")) > 0) && ((count KP_liberation_production) > 0)) then {
 		waitUntil {sleep 0.5; !sectors_recalculating};
 		sectors_recalculating = true;
 
@@ -28,22 +28,22 @@ while {GRLIB_endgame == 0} do {
 			private _time = _x select 8;
 
 			private _storage = nearestObjects [(markerPos (_x select 1)), [KP_liberation_small_storage_building], GRLIB_fob_range];
-			_storage = [_storage, {(_x getVariable ["KP_liberation_storage_type",-1]) == 1}] call BIS_fnc_conditionalSelect;
+			_storage = _storage select {(_x getVariable ["KP_liberation_storage_type",-1]) == 1};
 			if ((count _storage) > 0) then {
 				_storage = (_storage select 0);
 				_storageArray = [(getPosATL _storage),(getDir _storage),(vectorUpVisual _storage)];
-				
+
 				if (_time_update) then {
-				
+
 					if ((_time - 1) < 1) then {
 						_time = KP_liberation_production_interval;
-						
+
 						if (((count (attachedObjects _storage)) < 12) && !((_x select 7) == 3)) then {
 							private _crateType = KP_liberation_supply_crate;
 							switch (_x select 7) do {
-								case 1: {_crateType = KP_liberation_ammo_crate;};
-								case 2: {_crateType = KP_liberation_fuel_crate;};
-								default {_crateType = KP_liberation_supply_crate;};
+								case 1: {_crateType = KP_liberation_ammo_crate; stats_ammo_produced = stats_ammo_produced + 100;};
+								case 2: {_crateType = KP_liberation_fuel_crate; stats_fuel_produced = stats_fuel_produced + 100;};
+								default {_crateType = KP_liberation_supply_crate; stats_supplies_produced = stats_supplies_produced + 100;};
 							};
 
 							private _crate = [_crateType, 100, getPosATL _storage] call F_createCrate;

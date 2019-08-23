@@ -12,7 +12,7 @@ if ( _sector in sectors_military ) then {
 };
 
 if ( GRLIB_blufor_defenders ) then {
-	_grp = creategroup GRLIB_side_friendly;
+	_grp = creategroup [GRLIB_side_friendly, true];
 	{ _x createUnit [ markerpos _sector, _grp,'this addMPEventHandler ["MPKilled", {_this spawn kill_manager}]']; } foreach _squad_type;
 	sleep 3;
 	_grp setBehaviour "COMBAT";
@@ -49,7 +49,7 @@ if ( GRLIB_endgame == 0 ) then {
 		publicVariable "blufor_sectors";
 		[_sector, 2] remoteExec ["remote_call_sector"];
 		reset_battlegroups_ai = true;
-		trigger_server_save = true;
+		doSaveTrigger = true;
 		stats_sectors_lost = stats_sectors_lost + 1;
 		{
 			if (_sector in _x) exitWith {
@@ -58,7 +58,7 @@ if ( GRLIB_endgame == 0 ) then {
 						detach _x;
 						deleteVehicle _x;
 					} forEach (attachedObjects ((nearestObjects [((_x select 3) select 0), [KP_liberation_small_storage_building], 10]) select 0));
-					
+
 					deleteVehicle ((nearestObjects [((_x select 3) select 0), [KP_liberation_small_storage_building], 10]) select 0);
 				};
 				KP_liberation_production = KP_liberation_production - [_x];
@@ -66,7 +66,7 @@ if ( GRLIB_endgame == 0 ) then {
 		} forEach KP_liberation_production;
 	} else {
 		[_sector, 3] remoteExec ["remote_call_sector"];
-		{ [_x] spawn prisonner_ai; } foreach ( [ (markerpos _sector) nearEntities [ "Man", GRLIB_capture_size * 0.8 ], { side group _x == GRLIB_side_enemy } ] call BIS_fnc_conditionalSelect );
+		{[_x] spawn prisonner_ai;} foreach (((markerpos _sector) nearEntities ["Man", GRLIB_capture_size * 0.8]) select {side group _x == GRLIB_side_enemy});
 	};
 };
 

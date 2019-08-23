@@ -35,7 +35,7 @@ stats_sectors_liberated = stats_sectors_liberated + 1;
 if (_liberated_sector in sectors_factory) then {
 
 	private _sectorType = 1;
-	private _sectorFacilities = ([KP_liberation_production_markers, {_liberated_sector == (_x select 0)}] call BIS_fnc_conditionalSelect) select 0;
+	private _sectorFacilities = (KP_liberation_production_markers select {_liberated_sector == (_x select 0)}) select 0;
 	private _producing = 3;
 
 	{
@@ -71,7 +71,7 @@ publicVariable "asymm_blocked_sectors";
 
 sleep 1;
 
-trigger_server_save = true;
+doSaveTrigger = true;
 
 sleep 45;
 

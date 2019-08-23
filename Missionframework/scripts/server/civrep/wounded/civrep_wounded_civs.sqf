@@ -5,7 +5,7 @@ if (!(_sector in sectors_bigtown) && !(_sector in sectors_capture)) exitWith {};
 if (KP_liberation_civrep_debug > 0) then {diag_log format ["[KP LIBERATION] [CIVREP] civrep_wounded_civs.sqf -> Spawned for %1 on: %2 - Time: %3", markerText _sector, debug_source, time];};
 
 private _count = 2 + (ceil (random 2));
-private _grp = creategroup GRLIB_side_civilian;
+private _grp = creategroup [GRLIB_side_civilian, true];
 private _civs = [];
 private _markers = [];
 
@@ -48,6 +48,7 @@ while {_units_near > 0} do {
 			[4, [(name _civ)]] remoteExec ["F_cr_globalMsg"];
 			[KP_liberation_cr_wounded_gain] call F_cr_changeCR;
 			_healed_civs pushBack _civ;
+            stats_civilians_healed = stats_civilians_healed +1;
 		}
 	} forEach _civs;
 	sleep 1;

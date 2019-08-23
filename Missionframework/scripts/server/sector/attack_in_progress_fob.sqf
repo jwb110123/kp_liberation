@@ -7,7 +7,7 @@ _ownership = [ _thispos ] call F_sectorOwnership;
 if ( _ownership != GRLIB_side_enemy ) exitWith {};
 
 if ( GRLIB_blufor_defenders ) then {
-	_grp = creategroup GRLIB_side_friendly;
+	_grp = creategroup [GRLIB_side_friendly, true];
 	{ _x createUnit [ _thispos, _grp,'this addMPEventHandler ["MPKilled", {_this spawn kill_manager}]']; } foreach blufor_squad_inf;
 	sleep 3;
 	_grp setBehaviour "COMBAT";
@@ -46,11 +46,11 @@ if ( GRLIB_endgame == 0 ) then {
 		publicVariable "GRLIB_all_fobs";
 		reset_battlegroups_ai = true;
 		[_thispos] call destroy_fob;
-		trigger_server_save = true;
+		doSaveTrigger = true;
 		stats_fobs_lost = stats_fobs_lost + 1;
 	} else {
 		[_thispos, 3] remoteExec ["remote_call_fob"];
-		{ [_x] spawn prisonner_ai; } foreach ( [ _thispos nearEntities [ "Man", GRLIB_capture_size * 0.8], { side group _x == GRLIB_side_enemy } ] call BIS_fnc_conditionalSelect );
+		{[_x] spawn prisonner_ai;} foreach ((_thispos nearEntities ["Man", GRLIB_capture_size * 0.8]) select {side group _x == GRLIB_side_enemy});
 	};
 };
 
