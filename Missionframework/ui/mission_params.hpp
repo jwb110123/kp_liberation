@@ -7,16 +7,16 @@ class Params
         default = 1;
     };
     class Spacer0 {
-        title = '';
-        values[] = { '' };
-        texts[] = { '' };
-        default = '';
+        title = "";
+        values[] = { "" };
+        texts[] = { "" };
+        default = "";
     };
     class MissionOptions {
         title = $STR_PARAMS_MISSIONOPTIONS;
-        values[] = { '' };
-        texts[] = { '' };
-        default = '';
+        values[] = { "" };
+        texts[] = { "" };
+        default = "";
     };
     class Unitcap {
         title = $STR_PARAMS_UNITCAP;
@@ -81,7 +81,7 @@ class Params
     class DayDuration {
         title = $STR_PARAMS_DAYDURATION;
         values[] = {8, 6, 4, 3, 2, 1};
-        texts[] = {'3','4','6','8','12','24'};
+        texts[] = {"3","4","6","8","12","24"};
         default = 6;
     };
     class ShorterNights {
@@ -99,7 +99,7 @@ class Params
     class ResourcesMultiplier {
         title = $STR_PARAMS_RESOURCESMULTIPLIER;
         values[] = { 0, 1, 2, 3, 4, 5, 6, 7 };
-        texts[] = { 'x0.25', 'x0.5', 'x0.75', 'x1', 'x1.25','x1.5','x2','x3' };
+        texts[] = { "x0.25", "x0.5", "x0.75", "x1", "x1.25","x1.5","x2","x3" };
         default = 3;
     };
     class ArsenalType {
@@ -115,16 +115,16 @@ class Params
         default = 0;
     };
     class Spacer1 {
-        title = '';
-        values[] = { '' };
-        texts[] = { '' };
-        default = '';
+        title = "";
+        values[] = { "" };
+        texts[] = { "" };
+        default = "";
     };
     class ReviveOptions {
         title = $STR_PARAMS_REVIVEOPTIONS;
-        values[] = { '' };
-        texts[] = { '' };
-        default = '';
+        values[] = { "" };
+        texts[] = { "" };
+        default = "";
     };
     class ReviveMode {
         title = $STR_A3_ReviveMode;
@@ -147,7 +147,7 @@ class Params
     class ReviveMedicSpeedMultiplier {
         title = $STR_A3_RequiredTrait_MedicSpeedMultiplier;
         values[] = {1,1.5,2,2.5,3};
-        texts[] = {'1x','1.5x','2x','2.5x','3x'};
+        texts[] = {"1x","1.5x","2x","2.5x","3x"};
         default = 1;
     };
     class ReviveRequiredItems {
@@ -175,16 +175,16 @@ class Params
         default = 10;
     };
     class Spacer2 {
-        title = '';
-        values[] = { '' };
-        texts[] = { '' };
-        default = '';
+        title = "";
+        values[] = { "" };
+        texts[] = { "" };
+        default = "";
     };
     class GameplayOptions {
         title = $STR_PARAMS_GAMEPLAYOPTIONS;
-        values[] = { '' };
-        texts[] = { '' };
-        default = '';
+        values[] = { "" };
+        texts[] = { "" };
+        default = "";
     };
     class Fatigue {
         title = $STR_PARAMS_FATIGUE;
@@ -253,16 +253,16 @@ class Params
         default = 0;
     };
     class Spacer3 {
-        title = '';
-        values[] = { '' };
-        texts[] = { '' };
-        default = '';
+        title = "";
+        values[] = { "" };
+        texts[] = { "" };
+        default = "";
     };
     class TechnicalOptions {
         title = $STR_PARAMS_TECHNICALOPTIONS;
-        values[] = { '' };
-        texts[] = { '' };
-        default = '';
+        values[] = { "" };
+        texts[] = { "" };
+        default = "";
     };
     class Permissions {
         title = $STR_PERMISSIONS_PARAM;
@@ -297,7 +297,7 @@ class Params
     class ServerRestart {
         title = $STR_RESTART_PARAM;
         values[] = {0,1,2,3,4,5,6};
-        texts[] = {$STR_PARAMS_DISABLED,'1','2','3','4','5','6'};
+        texts[] = {$STR_PARAMS_DISABLED,"1","2","3","4","5","6"};
         default = 0;
     };
     class WipeSave1 {
@@ -313,16 +313,16 @@ class Params
         default = 0;
     };
     class Spacer4 {
-        title = '';
-        values[] = {''};
-        texts[] = {''};
-        default = '';
+        title = "";
+        values[] = {""};
+        texts[] = {""};
+        default = "";
     };
     class DebugOptions {
         title = $STR_PARAMS_DEBUGOPTIONS;
-        values[] = {''};
-        texts[] = {''};
-        default = '';
+        values[] = {""};
+        texts[] = {""};
+        default = "";
     };
     class DebugAsymmetric {
         title = $STR_PARAMS_DEBUG_ASYMMETRIC;
