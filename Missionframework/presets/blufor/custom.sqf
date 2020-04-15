@@ -102,6 +102,12 @@ light_vehicles = [
 	["B_SDV_01_F",150,0,50],												//SDV
 	["B_UGV_01_F",150,0,50],												//UGV Stomper
 	["B_UGV_01_rcws_F",150,40,50]											//UGV Stomper (RCWS)
+    ["B_UGV_01_F",150,0,50],                                            // UGV Stomper
+    ["B_UGV_01_rcws_F",150,40,50],                                      // UGV Stomper (RCWS)
+    ["B_Boat_Transport_01_F",100,0,25],                                 // Assault Boat
+    ["B_Boat_Armed_01_minigun_F",200,80,75],                            // Speedboat Minigun
+    ["rhsusf_mkvsoc",250,200,100],                                      // Mk.V SOCOM
+    ["B_SDV_01_F",150,0,50]                                             // SDV
 ];
 
 heavy_vehicles = [
@@ -121,9 +127,7 @@ air_vehicles = [
 	["B_UAV_06_F",80,0,30],												//AL-6 Pelican (Cargo)
 	["B_Heli_Light_01_F",200,0,100],									//MH-9 Hummingbird
 	["B_Heli_Light_01_dynamicLoadout_F",200,100,100],					//AH-9 Pawnee
-	["UK3CB_BAF_Wildcat_AH1_TRN_8A_MTP",225,0,125],                     // Wildcat AH1 8 Transport (Unarmed)
     ["UK3CB_BAF_Wildcat_HMA2_TRN_8A_MTP",250,0,125],                    // Wildcat HMA2 8 Transport (Unarmed)
-    ["UK3CB_BAF_Wildcat_AH1_CAS_6C_MTP",275,200,150],                   // Wildcat AH1 6 (CAS/AT)
     ["UK3CB_BAF_Wildcat_AH1_CAS_8C_MTP",275,200,150],                   // Wildcat AH1 8 (CAS/AT)
     ["UK3CB_BAF_Apache_AH1_MTP",500,500,200],                           // Apache AH 1 (Multi-Role)
 	["B_Heli_Transport_01_F",250,80,150],								//UH-80 Ghost Hawk
@@ -141,6 +145,16 @@ air_vehicles = [
 	["B_T_VTOL_01_vehicle_F",750,0,500],								//V-44 X Blackfish (Vehicle)
 	["O_T_VTOL_02_infantry_dynamicLoadout_F", 750, 1500, 500], 			//CSAT VTOL (Infantry)
 	["O_T_VTOL_02_vehicle_dynamicLoadout_F", 750, 1500, 500]			//CSAT VTOL (Vehicle lift)
+    ["FIR_F15C",1250,1250,450],                                         // F-15C Eagle
+    ["FIR_F15D",1250,1250,450],                                         // F-15D Eagle
+    ["FIR_F15E",1250,1500,450],                                         // F-15E Strike Eagle
+    ["JS_JC_FA18E",1500,1750,450],                                      // F/A-18 E Super Hornet
+    ["JS_JC_FA18F",1500,1750,450],                                      // F/A-18 F Super Hornet
+    ["B_Plane_Fighter_01_F",1500,1750,450],                             // F/A-181 Black Wasp II
+    ["B_Plane_Fighter_01_Stealth_F",1500,1750,450],                     // F/A-181 Black Wasp II (Stealth)
+    ["B_T_VTOL_01_armed_F",750,1500,500],                               // V-44 X Blackfish (Armed)
+    ["B_T_VTOL_01_infantry_F",750,0,500],                               // V-44 X Blackfish (Infantry)
+    ["B_T_VTOL_01_vehicle_F",750,0,500]                                 // V-44 X Blackfish (Vehicle)
 ];
 
 static_vehicles = [
@@ -255,6 +269,7 @@ support_vehicles = [
     ["ACE_Box_82mm_Mo_Illum",50,10,0],
     ["ACE_Wheel",10,0,0],
     ["ACE_Track",10,0,0],
+    ["CUP_B_TowingTractor_NATO",50,0,25],                               // Towing Tractor
     ["B_APC_Tracked_01_CRV_F",500,250,350],                             // CRV-6e Bobcat
     ["B_Truck_01_Repair_F",325,0,75],                                   // HEMTT Repair
     ["B_Truck_01_fuel_F",125,0,275],                                    // HEMTT Fuel
