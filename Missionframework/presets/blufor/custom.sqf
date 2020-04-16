@@ -81,8 +81,8 @@ infantry_units = [
 light_vehicles = [
 	["B_Quadbike_01_F",50,0,25],											//Quad Bike
 	["B_LSV_01_unarmed_F",75,0,50],											//Prowler
-    ["B_LSV_01_armed_F",75,40,50],                                      	// Prowler (HMG)
-    ["B_LSV_01_AT_F",75,60,50],                                         	// Prowler (AT)
+    ["B_LSV_01_armed_F",75,40,50],                                      	//Prowler (HMG)
+    ["B_LSV_01_AT_F",75,60,50],                                         	//Prowler (AT)
 	["UK3CB_BAF_LandRover_Soft_FFR_Sand_A_DDPM",75,0,50],					//Land Rover SoftTop
 	["UK3CB_BAF_LandRover_Hard_FFR_Sand_A_DDPM",75,0,50],					//Land Rover HardTop
 	["UK3CB_BAF_LandRover_WMIK_HMG_FFR_Sand_A_DDPM",100,40,50],				//Land Rover WMIK (HMG)
@@ -99,15 +99,7 @@ light_vehicles = [
 	["B_Boat_Transport_01_F",100,0,25],										//Assault Boat
 	["B_Boat_Armed_01_minigun_F",200,80,75],								//Speedboat Minigun
 	["rhsusf_mkvsoc",250,200,100],											//Mk.V SOCOM
-	["B_SDV_01_F",150,0,50],												//SDV
-	["B_UGV_01_F",150,0,50],												//UGV Stomper
-	["B_UGV_01_rcws_F",150,40,50],											//UGV Stomper (RCWS)
-    ["B_UGV_01_F",150,0,50],                                            // UGV Stomper
-    ["B_UGV_01_rcws_F",150,40,50],                                      // UGV Stomper (RCWS)
-    ["B_Boat_Transport_01_F",100,0,25],                                 // Assault Boat
-    ["B_Boat_Armed_01_minigun_F",200,80,75],                            // Speedboat Minigun
-    ["rhsusf_mkvsoc",250,200,100],                                      // Mk.V SOCOM
-    ["B_SDV_01_F",150,0,50]                                             // SDV
+	["B_SDV_01_F",150,0,50]													//SDV
 ];
 
 heavy_vehicles = [
@@ -115,9 +107,9 @@ heavy_vehicles = [
 	["B_APC_Tracked_01_rcws_F",300,100,150],								//IFV-6c Panther
 	["I_APC_tracked_03_cannon_F",300,150,150],								//FV-720 Mora
 	["B_APC_Tracked_01_AA_F",300,250,175],									//IFV-6a Cheetah
-	["I_LT_01_AA_F",300,250,175],                                      		// AWC 302 Nyx (AA)
-    ["I_LT_01_AT_F",300,250,175],                                       	// AWC 302 Nyx (AT)
-    ["I_LT_01_cannon_F",300,250,175],                                   	// AWC 302 Nyx (Cannon)
+	["I_LT_01_AA_F",300,250,175],                                      		//AWC 302 Nyx (AA)
+    ["I_LT_01_AT_F",300,250,175],                                       	//AWC 302 Nyx (AT)
+    ["I_LT_01_cannon_F",300,250,175],                                   	//AWC 302 Nyx (Cannon)
 	["B_MBT_01_arty_F",600,1250,300],										//M4 Scorcher
 	["B_MBT_01_mlrs_F",800,1750,400]										//M5 Sandstorm MLRS
 ];
@@ -127,9 +119,9 @@ air_vehicles = [
 	["B_UAV_06_F",80,0,30],												//AL-6 Pelican (Cargo)
 	["B_Heli_Light_01_F",200,0,100],									//MH-9 Hummingbird
 	["B_Heli_Light_01_dynamicLoadout_F",200,100,100],					//AH-9 Pawnee
-    ["UK3CB_BAF_Wildcat_HMA2_TRN_8A_MTP",250,0,125],                    // Wildcat HMA2 8 Transport (Unarmed)
-    ["UK3CB_BAF_Wildcat_AH1_CAS_8C_MTP",275,200,150],                   // Wildcat AH1 8 (CAS/AT)
-    ["UK3CB_BAF_Apache_AH1_MTP",500,500,200],                           // Apache AH 1 (Multi-Role)
+    ["UK3CB_BAF_Wildcat_HMA2_TRN_8A_MTP",250,0,125],                    //Wildcat HMA2 8 Transport (Unarmed)
+    ["UK3CB_BAF_Wildcat_AH1_CAS_8C_MTP",275,200,150],                   //Wildcat AH1 8 (CAS/AT)
+    ["UK3CB_BAF_Apache_AH1_MTP",500,500,200],                           //Apache AH 1 (Multi-Role)
 	["B_Heli_Transport_01_F",250,80,150],								//UH-80 Ghost Hawk
 	["B_Heli_Transport_01_camo_F",250,80,150],							//UH-80 Ghost Hawk (Camo)
 	["I_Heli_Transport_02_F",275,0,175],								//CH-49 Mohawk
@@ -149,12 +141,7 @@ air_vehicles = [
     ["FIR_F15D",1250,1250,450],                                         // F-15D Eagle
     ["FIR_F15E",1250,1500,450],                                         // F-15E Strike Eagle
     ["JS_JC_FA18E",1500,1750,450],                                      // F/A-18 E Super Hornet
-    ["JS_JC_FA18F",1500,1750,450],                                      // F/A-18 F Super Hornet
-    ["B_Plane_Fighter_01_F",1500,1750,450],                             // F/A-181 Black Wasp II
-    ["B_Plane_Fighter_01_Stealth_F",1500,1750,450],                     // F/A-181 Black Wasp II (Stealth)
-    ["B_T_VTOL_01_armed_F",750,1500,500],                               // V-44 X Blackfish (Armed)
-    ["B_T_VTOL_01_infantry_F",750,0,500],                               // V-44 X Blackfish (Infantry)
-    ["B_T_VTOL_01_vehicle_F",750,0,500]                                 // V-44 X Blackfish (Vehicle)
+    ["JS_JC_FA18F",1500,1750,450]                                      // F/A-18 F Super Hornet
 ];
 
 static_vehicles = [
@@ -388,17 +375,8 @@ elite_vehicles = [
 	"B_Plane_Fighter_01_F",												//F/A-181 Black Wasp II
 	"B_Plane_Fighter_01_Stealth_F",										//F/A-181 Black Wasp II (Stealth)
 	"B_T_VTOL_01_armed_F",												//V-44 X Blackfish (Armed)
-	"O_T_VTOL_02_infantry_dynamicLoadout_F",							// CSAT VTOL
-	"O_T_VTOL_02_vehicle_dynamicLoadout_F",								// CSAT VTOL (v)
-    "B_UAV_02_dynamicLoadout_F",                                        // MQ-4A Greyhawk
-    "B_T_UAV_03_dynamicLoadout_F",                                      // MQ-12 Falcon
-    "B_UAV_05_F",                                                       // UCAV Sentinel
-    "B_Plane_CAS_01_dynamicLoadout_F",                                  // A-164 Wipeout (CAS)
-    "I_Plane_Fighter_04_F",                                             // A-149 Gryphon
-    "B_Plane_Fighter_01_F",                                             // F/A-181 Black Wasp II
-    "B_Plane_Fighter_01_Stealth_F",                                     // F/A-181 Black Wasp II (Stealth)
-    "B_T_VTOL_01_armed_F",                                               // V-44 X Blackfish (Armed)
-    "UK3CB_BAF_Wildcat_AH1_CAS_6C_MTP",                                     // Wildcat AH1 6 (CAS/AT)
-    "UK3CB_BAF_Wildcat_AH1_CAS_8C_MTP",                                     // Wildcat AH1 8 (CAS/AT)
-    "UK3CB_BAF_Apache_AH1_MTP"                                             // Apache AH 1 (Multi-Role)
+	"O_T_VTOL_02_infantry_dynamicLoadout_F",							//CSAT VTOL
+	"O_T_VTOL_02_vehicle_dynamicLoadout_F",								//CSAT VTOL (v)
+    "UK3CB_BAF_Wildcat_AH1_CAS_8C_MTP",                                 //Wildcat AH1 8 (CAS/AT)
+    "UK3CB_BAF_Apache_AH1_MTP"                                          //Apache AH 1 (Multi-Role)
 ];

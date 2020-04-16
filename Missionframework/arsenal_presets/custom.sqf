@@ -89,7 +89,7 @@ GRLIB_arsenal_weapons = [
 ];
 
 GRLIB_arsenal_magazines = [
-	"UK3CB_BAF_9_17Rnd",
+	/*"UK3CB_BAF_9_17Rnd",
 	"UK3CB_BAF_9_30Rnd",
 	"UK3CB_BAF_127_10Rnd",
 	"UK3CB_BAF_127_10Rnd_AP",
@@ -209,7 +209,7 @@ GRLIB_arsenal_magazines = [
 	"10Rnd_127x54_Mag",
 	"20Rnd_762x51_Mag",
 	"150Rnd_556x45_Drum_Mag_F",
-	"30Rnd_556x45_Stanag"
+	"30Rnd_556x45_Stanag"*/
 ];
 
 GRLIB_arsenal_items = [
