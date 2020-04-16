@@ -144,7 +144,7 @@ air_vehicles = [
 	["B_T_VTOL_01_infantry_F",750,0,500],								//V-44 X Blackfish (Infantry)
 	["B_T_VTOL_01_vehicle_F",750,0,500],								//V-44 X Blackfish (Vehicle)
 	["O_T_VTOL_02_infantry_dynamicLoadout_F", 750, 1500, 500], 			//CSAT VTOL (Infantry)
-	["O_T_VTOL_02_vehicle_dynamicLoadout_F", 750, 1500, 500]			//CSAT VTOL (Vehicle lift)
+	["O_T_VTOL_02_vehicle_dynamicLoadout_F", 750, 1500, 500],			//CSAT VTOL (Vehicle lift)
     ["FIR_F15C",1250,1250,450],                                         // F-15C Eagle
     ["FIR_F15D",1250,1250,450],                                         // F-15D Eagle
     ["FIR_F15E",1250,1500,450],                                         // F-15E Strike Eagle
