@@ -281,7 +281,7 @@ support_vehicles = [
     ["B_Slingload_01_Ammo_F",75,200,0],                                      // Huron Ammo
     ["B_Truck_01_Repair_F",325,0,75],                                   // HEMTT Repair
     ["B_Truck_01_fuel_F",125,0,275],                                    // HEMTT Fuel
-    ["B_Truck_01_ammo_F",125,200,75],                                   // HEMTT Ammo
+    ["B_Truck_01_ammo_F",125,200,75]                                   // HEMTT Ammo
 ];
 
 /*
