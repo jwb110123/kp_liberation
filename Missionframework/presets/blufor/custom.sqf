@@ -101,7 +101,7 @@ light_vehicles = [
 	["rhsusf_mkvsoc",250,200,100],											//Mk.V SOCOM
 	["B_SDV_01_F",150,0,50],												//SDV
 	["B_UGV_01_F",150,0,50],												//UGV Stomper
-	["B_UGV_01_rcws_F",150,40,50]											//UGV Stomper (RCWS)
+	["B_UGV_01_rcws_F",150,40,50],											//UGV Stomper (RCWS)
     ["B_UGV_01_F",150,0,50],                                            // UGV Stomper
     ["B_UGV_01_rcws_F",150,40,50],                                      // UGV Stomper (RCWS)
     ["B_Boat_Transport_01_F",100,0,25],                                 // Assault Boat
@@ -269,17 +269,19 @@ support_vehicles = [
     ["ACE_Box_82mm_Mo_Illum",50,10,0],
     ["ACE_Wheel",10,0,0],
     ["ACE_Track",10,0,0],
-    ["CUP_B_TowingTractor_NATO",50,0,25],                               // Towing Tractor
-    ["B_APC_Tracked_01_CRV_F",500,250,350],                             // CRV-6e Bobcat
+    ["UK3CB_BAF_Box_WpsStatic",300,300,0],
+    ["UK3CB_BAF_Box_L16_Ammo",0,0,0],
+    ["UK3CB_BAF_Box_M6_Ammo",0,0,0],
+    ["B_APC_Tracked_01_CRV_F",500,250,350],                                 // CRV-6e Bobcat
+    ["rhsusf_M977A4_REPAIR_BKIT_usarmy_wd",325,0,75],                       // M977A4 Repair
+    ["rhsusf_M978A4_BKIT_usarmy_wd",125,0,275],                             // M978A4 Fuel
+    ["rhsusf_M977A4_AMMO_BKIT_usarmy_wd",125,200,75],                       // M977A4 Ammo
+    ["B_Slingload_01_Repair_F",275,0,0],                                    // Huron Repair
+    ["B_Slingload_01_Fuel_F",75,0,200],                                     // Huron Fuel
+    ["B_Slingload_01_Ammo_F",75,200,0],                                      // Huron Ammo
     ["B_Truck_01_Repair_F",325,0,75],                                   // HEMTT Repair
     ["B_Truck_01_fuel_F",125,0,275],                                    // HEMTT Fuel
     ["B_Truck_01_ammo_F",125,200,75],                                   // HEMTT Ammo
-    ["rhsusf_M977A4_REPAIR_BKIT_usarmy_wd",325,0,75],                   // M977A4 Repair
-    ["rhsusf_M978A4_BKIT_usarmy_wd",125,0,275],                         // M978A4 Fuel
-    ["rhsusf_M977A4_AMMO_BKIT_usarmy_wd",125,200,75],                   // M977A4 Ammo
-    ["B_Slingload_01_Repair_F",275,0,0],                                // Huron Repair
-    ["B_Slingload_01_Fuel_F",75,0,200],                                 // Huron Fuel
-    ["B_Slingload_01_Ammo_F",75,200,0]                                  // Huron Ammo
 ];
 
 /*
@@ -395,5 +397,8 @@ elite_vehicles = [
     "I_Plane_Fighter_04_F",                                             // A-149 Gryphon
     "B_Plane_Fighter_01_F",                                             // F/A-181 Black Wasp II
     "B_Plane_Fighter_01_Stealth_F",                                     // F/A-181 Black Wasp II (Stealth)
-    "B_T_VTOL_01_armed_F"                                               // V-44 X Blackfish (Armed)
+    "B_T_VTOL_01_armed_F",                                               // V-44 X Blackfish (Armed)
+    "UK3CB_BAF_Wildcat_AH1_CAS_6C_MTP",                                     // Wildcat AH1 6 (CAS/AT)
+    "UK3CB_BAF_Wildcat_AH1_CAS_8C_MTP",                                     // Wildcat AH1 8 (CAS/AT)
+    "UK3CB_BAF_Apache_AH1_MTP"                                             // Apache AH 1 (Multi-Role)
 ];
