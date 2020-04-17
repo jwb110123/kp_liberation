@@ -114,7 +114,7 @@ KP_liberation_preset_blufor = 2;
 15 = CUP Chernarussian Movement of the Red Star
 16 = CUP Armed Forces of the Russian Federation (MSV - EMR)
 17 = CUP Armed Forces of the Russian Federation (Modern MSV) */
-KP_liberation_preset_opfor = 0;
+KP_liberation_preset_opfor = 2;
 
 /* Resistance preset:
 0  = Custom (default vanilla FIA)
@@ -184,7 +184,7 @@ GRLIB_secondary_objective_impact = 0.6;                                 // The p
 GRLIB_recycling_percentage = 0.5;                                       // Percentage of resources you get back from recycling.
 KP_liberation_production_interval = 30;                                 // Time in minutes until a production process is finished, when resources multiplier is set to 1.
 
-GRLIB_sector_size = 1000;                                               // Range to activate a sector.
+GRLIB_sector_size = 1500;                                               // Range to activate a sector.
 GRLIB_capture_size = 175;                                               // Range to capture a sector.
 GRLIB_defended_buildingpos_part = 0.4;                                  // Multiplier for defenders in buildings.
 GRLIB_battlegroup_size = 6;                                             // Size of enemy battlegroups.
@@ -315,7 +315,6 @@ blacklisted_from_arsenal = [
     "O_UAV_06_medical_backpack_F",
     "O_UGV_02_Demining_backpack_F",
     "O_UGV_02_Science_backpack_F",
-    "optic_Nightstalker",
     "optic_tws_mg",
     "optic_tws",
     "RHS_AGS30_Gun_Bag",
@@ -344,12 +343,6 @@ blacklisted_from_arsenal = [
     "RHS_SPG9_Tripod_Bag",
     "rhs_Tow_Gun_Bag",
     "rhs_TOW_Tripod_Bag",
-    "UK3CB_BAF_L111A1",
-    "UK3CB_BAF_L134A1",
-    "UK3CB_BAF_L16_Tripod",
-    "UK3CB_BAF_L16",
-    "UK3CB_BAF_M6",
-    "UK3CB_BAF_Tripod",
     "uns_M1_81mm_mortar_US_Bag",
     "uns_M1919_low_US_Bag",
     "uns_M2_60mm_mortar_US_Bag",
