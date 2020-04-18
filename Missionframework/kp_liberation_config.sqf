@@ -152,7 +152,7 @@ KP_liberation_preset_civilians = 0;
 9  = CSAT arsenal preset
 10 = Unsung US arsenal preset
 11 = SFP arsenal preset */
-KP_liberation_arsenal = 1;
+KP_liberation_arsenal = 0;
 
 
 /* - Fuel consumption settings.
