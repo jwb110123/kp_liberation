@@ -114,7 +114,7 @@ KP_liberation_preset_blufor = 2;
 15 = CUP Chernarussian Movement of the Red Star
 16 = CUP Armed Forces of the Russian Federation (MSV - EMR)
 17 = CUP Armed Forces of the Russian Federation (Modern MSV) */
-KP_liberation_preset_opfor = 2;
+KP_liberation_preset_opfor = 6;
 
 /* Resistance preset:
 0  = Custom (default vanilla FIA)
