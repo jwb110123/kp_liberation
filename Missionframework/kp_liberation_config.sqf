@@ -464,6 +464,8 @@ KP_liberation_allowed_items_extension = [
     "rhsusf_acc_g33_xps3_tan_flip",
     "sma_spitfire_03_rds_low_ard_red",
     "UK3CB_BAF_AT4_CS_AP_Mag",
+	"UK3CB_BAF_AT4_CS_AT_Mag",
+	"RKSL_optic_lds_pip",
     "UK3CB_BAF_Javelin_Launcher"
 ];
 
