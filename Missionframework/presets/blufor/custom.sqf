@@ -276,7 +276,7 @@ support_vehicles = [
     ["B_Slingload_01_Ammo_F",75,200,0],                                     // Huron Ammo
 	["UK3CB_BAF_MAN_HX58_Repair_Green_MTP",325,0,75],                   // BAF Repair
     ["UK3CB_BAF_MAN_HX58_Fuel_Green_MTP",125,0,275]                    // BAF Fuel
-	["B_Truck_01_ammo_F",125,200,75],                                   // HEMTT Ammo
+	["B_Truck_01_ammo_F",125,200,75]                                   // HEMTT Ammo
 ];
 
 /*
