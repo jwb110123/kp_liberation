@@ -94,6 +94,12 @@ light_vehicles = [
 	["UK3CB_BAF_Coyote_Passenger_L134A1_D_DDPM",100,100,50],				//Coyote Passenger (GMG)
 	["UK3CB_BAF_Coyote_Logistics_L111A1_D_DDPM",100,80,50],					//Coyote Logistics (HMG)
 	["UK3CB_BAF_Coyote_Logistics_L134A1_D_DDPM",100,100,50],				//Coyote Logistics (GMG)
+	["UK3CB_BAF_Husky_Logistics_HMG_Green_MTP",100,80,50],					//Husky Logistics (HMG)
+	["UK3CB_BAF_Husky_Logistics_GMG_Green_MTP",100,100,50],					//Husky Logistics (GMG)
+	["UK3CB_BAF_Husky_Logistics_GPMG_Green_MTP",100,10,50],					//Husky Logistics (GPMG)
+	["UK3CB_BAF_Husky_Passenger_HMG_Green_MTP",100,80,50],					//Husky Passenger (HMG)
+	["UK3CB_BAF_Husky_Passenger_GMG_Green_MTP",100,100,50],					//Husky Passenger (GMG)
+	["UK3CB_BAF_Husky_Passenger_GPMG_Green_MTP",100,10,50],					//Husky Passenger (GPMG)
 	["B_UGV_01_F",150,0,50],												//UGV Stomper
 	["B_UGV_01_rcws_F",150,40,50],											//UGV Stomper (RCWS)
 	["B_Boat_Transport_01_F",100,0,25],										//Assault Boat
@@ -105,11 +111,12 @@ light_vehicles = [
 heavy_vehicles = [
 	["B_APC_Wheeled_01_cannon_F",200,75,125],								//AMV-7 Marshall
 	["B_APC_Tracked_01_rcws_F",300,100,150],								//IFV-6c Panther
-	["I_APC_tracked_03_cannon_F",300,150,150],								//FV-720 Mora
+	["UK3CB_BAF_Warrior_A3_W_Cage_Camo_MTP",300,150,150],					//FV-720 Mora
 	["B_APC_Tracked_01_AA_F",300,250,175],									//IFV-6a Cheetah
 	["I_LT_01_AA_F",300,250,175],                                      		//AWC 302 Nyx (AA)
     ["I_LT_01_AT_F",300,250,175],                                       	//AWC 302 Nyx (AT)
     ["I_LT_01_cannon_F",300,250,175],                                   	//AWC 302 Nyx (Cannon)
+	["B_MBT_01_TUSK_F",600,1250,300],										//M2A4 Slammer UP
 	["B_MBT_01_arty_F",600,1250,300],										//M4 Scorcher
 	["B_MBT_01_mlrs_F",800,1750,400]										//M5 Sandstorm MLRS
 ];
@@ -118,10 +125,10 @@ air_vehicles = [
 	["B_UAV_01_F",75,0,25],												//AR-2 Darter
 	["B_UAV_06_F",80,0,30],												//AL-6 Pelican (Cargo)
 	["B_Heli_Light_01_F",200,0,100],									//MH-9 Hummingbird
-	["B_Heli_Light_01_dynamicLoadout_F",200,100,100],					//AH-9 Pawnee
+	["B_Heli_Light_01_dynamicLoadout_F",200,100,100],					//AH-9 Pawnee (Dynamic Loadout)
     ["UK3CB_BAF_Wildcat_HMA2_TRN_8A_MTP",250,0,125],                    //Wildcat HMA2 8 Transport (Unarmed)
     ["UK3CB_BAF_Wildcat_AH1_CAS_8C_MTP",275,200,150],                   //Wildcat AH1 8 (CAS/AT)
-    ["UK3CB_BAF_Apache_AH1_MTP",500,500,200],                           //Apache AH 1 (Multi-Role)
+    ["UK3CB_BAF_Apache_DynamicLoadoutUnlimited",500,500,200],           //Apache AH 1 (Dynamic Loadout)
 	["B_Heli_Transport_01_F",250,80,150],								//UH-80 Ghost Hawk
 	["B_Heli_Transport_01_camo_F",250,80,150],							//UH-80 Ghost Hawk (Camo)
 	["I_Heli_Transport_02_F",275,0,175],								//CH-49 Mohawk
@@ -129,6 +136,7 @@ air_vehicles = [
 	["B_UAV_02_dynamicLoadout_F",400,400,200],							//MQ-4A Greyhawk
 	["B_T_UAV_03_dynamicLoadout_F",450,500,250],						//MQ-12 Falcon
 	["B_UAV_05_F",500,500,200],											//UCAV Sentinel
+	["UK3CB_BAF_MQ9_Reaper_MTP",400,400,200],							//Reaper drone
 	["B_Plane_CAS_01_dynamicLoadout_F",1000,800,400],					//A-164 Wipeout (CAS)
 	["B_Plane_Fighter_01_F",1500,1750,450],								//F/A-181 Black Wasp II
 	["B_Plane_Fighter_01_Stealth_F",1500,1750,450],						//F/A-181 Black Wasp II (Stealth)
@@ -265,10 +273,10 @@ support_vehicles = [
     ["rhsusf_M977A4_AMMO_BKIT_usarmy_wd",125,200,75],                       // M977A4 Ammo
     ["B_Slingload_01_Repair_F",275,0,0],                                    // Huron Repair
     ["B_Slingload_01_Fuel_F",75,0,200],                                     // Huron Fuel
-    ["B_Slingload_01_Ammo_F",75,200,0],                                      // Huron Ammo
-    ["B_Truck_01_Repair_F",325,0,75],                                   // HEMTT Repair
-    ["B_Truck_01_fuel_F",125,0,275],                                    // HEMTT Fuel
-    ["B_Truck_01_ammo_F",125,200,75]                                   // HEMTT Ammo
+    ["B_Slingload_01_Ammo_F",75,200,0],                                     // Huron Ammo
+	["UK3CB_BAF_MAN_HX58_Repair_Green_MTP",325,0,75],                   // BAF Repair
+    ["UK3CB_BAF_MAN_HX58_Fuel_Green_MTP",125,0,275]                    // BAF Fuel
+	["B_Truck_01_ammo_F",125,200,75],                                   // HEMTT Ammo
 ];
 
 /*
