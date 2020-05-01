@@ -17,7 +17,7 @@ FOB_box_typename = "B_Slingload_01_Cargo_F";                            // This 
 FOB_truck_typename = "rhs_gaz66_r142_msv";                              // This is the FOB as a vehicle.
 Arsenal_typename = "O_supplyCrate_F";                                   // This is the virtual arsenal as portable supply crates.
 Respawn_truck_typename = "rhs_gaz66_ap2_msv";                           // This is the mobile respawn (and medical) truck.
-huron_typename = "RHS_Mi8mt_vvs";                                       // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
+huron_typename = "RHS_Mi8AMTSh_vvs";                                       // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
 crewman_classname = "rhs_msv_emr_armoredcrew";                          // This defines the crew for vehicles.
 pilot_classname = "rhs_pilot_combat_heli";                              // This defines the pilot for helicopters.
 KP_liberation_little_bird_classname = "rhs_ka60_grey";                  // These are the little birds which spawn on the Freedom or at Chimera base.
@@ -246,7 +246,7 @@ support_vehicles = [
 
 // Light infantry squad.
 blufor_squad_inf_light = [
-    "rhs_vdv_sergeant    ",
+    "rhs_vdv_sergeant",
     "rhs_vdv_rifleman",
     "rhs_vdv_LAT",
     "rhs_vdv_at",

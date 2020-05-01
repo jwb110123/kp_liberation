@@ -152,7 +152,7 @@ KP_liberation_preset_civilians = 0;
 9  = CSAT arsenal preset
 10 = Unsung US arsenal preset
 11 = SFP arsenal preset */
-KP_liberation_arsenal = 0;
+KP_liberation_arsenal = 1;
 
 
 /* - Fuel consumption settings.
@@ -167,8 +167,8 @@ KP_liberation_fuel_max = 45;
 Name of the savegame namespace inside of the [ServerProfileName].vars.Arma3Profile file. */
 GRLIB_save_key = "KP_LIBERATION_" + (toUpper worldName) + "_SAVEGAME";
 
-GRLIB_side_friendly = WEST;                                             // Friendly side.
-GRLIB_side_enemy = EAST;                                                // Enemy side.
+GRLIB_side_friendly = EAST;                                             // Friendly side.
+GRLIB_side_enemy = WEST;                                                // Enemy side.
 GRLIB_side_resistance = RESISTANCE;                                     // Resistance side.
 GRLIB_side_civilian = CIVILIAN;                                         // Civilian side.
 GRLIB_respawn_marker = "respawn";                                       // Respawn marker name.
