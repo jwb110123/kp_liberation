@@ -5,9 +5,9 @@ GRLIB_arsenal_weapons = [
 	"srifle_DMR_02_sniper_F",
 	"srifle_GM6_F",
 	"rhs_weap_fim92",
-	"rhs_weap_M136",
-	"rhs_weap_M136_hedp",
-	"rhs_weap_M136_hp",
+	"rhs_weap_M136",        // replace with ILAW
+	"rhs_weap_M136_hedp",   // replace with ILAW
+	"rhs_weap_M136_hp",     // replace with ILAW
 	"rhs_weap_m72a7", //reintroduced to BAF forces in Afghanistan
 	"UK3CB_BAF_L1A1",
 	"UK3CB_BAF_L1A1_Wood",

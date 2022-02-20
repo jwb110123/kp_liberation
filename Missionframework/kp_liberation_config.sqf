@@ -109,7 +109,7 @@ If you want to change a preset, it's recommended to set all four presets to 0 an
 28 = SFP (Woodland)
 29 = SFP (Desert)
 30 = LDF (Contact DLC) */
-KP_liberation_preset_blufor = 6;
+KP_liberation_preset_blufor = 8;
 
 /* OPFOR preset:
 0  = Custom (default vanilla CSAT)
@@ -134,7 +134,7 @@ KP_liberation_preset_blufor = 6;
 19 = CUP British Armed Forces (Desert)
 20 = CUP British Armed Forces (Woodland)
 21 = RHS USAF (Woodland) */
-KP_liberation_preset_opfor = 2;
+KP_liberation_preset_opfor = 21;
 
 
 /* Resistance preset:
@@ -194,15 +194,15 @@ GRLIB_save_key = "KP_LIBERATION_" + (toUpper worldName) + "_SAVEGAME";
 
 KP_liberation_save_interval = 60;                                       // Interval in seconds for automatic save.
 
-GRLIB_side_friendly = EAST;                                             // Friendly side.
-GRLIB_side_enemy = WEST;                                                // Enemy side.
+GRLIB_side_friendly = WEST;                                             // Friendly side.
+GRLIB_side_enemy = EAST;                                                // Enemy side.
 GRLIB_side_resistance = RESISTANCE;                                     // Resistance side.
 GRLIB_side_civilian = CIVILIAN;                                         // Civilian side.
 GRLIB_respawn_marker = "respawn";                                       // Respawn marker name.
 
-GRLIB_color_friendly = "ColorOPFOR";                                   // Friendly sector marker color.
-GRLIB_color_enemy = "ColorBLUFOR";                                       // Enemy sector marker color.
-GRLIB_color_enemy_bright = "ColorBLUE";                                  // Enemy sector marker color (activated).
+GRLIB_color_friendly = "ColorBLUFOR";                                   // Friendly sector marker color.
+GRLIB_color_enemy = "ColorOPFOR";                                       // Enemy sector marker color.
+GRLIB_color_enemy_bright = "ColorRED";                                  // Enemy sector marker color (activated).
 
 GRLIB_fob_range = 125;                                                  // Build range around the main FOB building.
 GRLIB_halo_altitude = 2500;                                             // Altitude in metres for the HALO jump.

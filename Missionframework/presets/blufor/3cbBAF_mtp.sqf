@@ -22,7 +22,7 @@ FOB_box_typename = "B_Slingload_01_Cargo_F";                                // T
 FOB_truck_typename = "B_Truck_01_box_F";                                    // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                       // This is the virtual arsenal as portable supply crates.
 Respawn_truck_typename = "UK3CB_BAF_LandRover_Amb_FFR_Green_A_MTP";         // This is the mobile respawn (and medical) truck.
-huron_typename = "UK3CB_BAF_Merlin_HC3_18_MTP";                             // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
+huron_typename = "UK3CB_BAF_Merlin_HC3_32_MTP";                             // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
 crewman_classname = "UK3CB_BAF_Crewman_MTP";                                // This defines the crew for vehicles.
 pilot_classname = "UK3CB_BAF_HeliPilot_Army_MTP";                           // This defines the pilot for helicopters.
 KP_liberation_little_bird_classname = "UK3CB_BAF_Wildcat_AH1_TRN_8A_MTP";   // These are the little birds which spawn on the Freedom or at Chimera base.
@@ -47,102 +47,82 @@ KP_liberation_fuel_crate = "CargoNet_01_barrels_F";                         // T
     IMPORTANT: The last element inside each array must have no comma at the end!
 */
 infantry_units = [
-    ["UK3CB_BAF_Pointman_MTP",15,0,0],                                      // Rifleman (Light)
-    ["UK3CB_BAF_Rifleman_MTP",20,0,0],                                      // Rifleman
-    ["UK3CB_BAF_LAT_ILAW_MTP",30,0,0],                                      // Rifleman (AT)
-    ["UK3CB_BAF_Grenadier_MTP",25,0,0],                                     // Grenadier
-    ["UK3CB_BAF_LSW_MTP",25,0,0],                                           // Autorifleman
-    ["UK3CB_BAF_MGLMG_MTP",35,0,0],                                         // Heavygunner
-    ["UK3CB_BAF_Marksman_MTP",30,0,0],                                      // Marksman
-    ["UK3CB_BAF_MAT_MTP",50,10,0],                                          // AT Specialist
-    ["B_soldier_AA_F",50,10,0],                                             // AA Specialist (None in BAF mod.)
-    ["UK3CB_BAF_Medic_MTP",30,0,0],                                         // Combat Life Saver
-    ["UK3CB_BAF_Engineer_MTP",30,0,0],                                      // Engineer
-    ["UK3CB_BAF_Explosive_MTP",30,0,0],                                     // Explosives Specialist
-    ["UK3CB_BAF_Pointman_MTP_REC",20,0,0],                                  // Recon Rifleman
-    ["UK3CB_BAF_FAC_MTP_REC",30,0,0],                                       // Recon Rifleman (Grenadier)
-    ["UK3CB_BAF_MGLMG_MTP_REC",35,0,0],                                     // Recon Machine Gunner
-    ["UK3CB_BAF_Marksman_MTP_REC",30,0,0],                                  // Recon Marksman
-    ["UK3CB_BAF_Medic_MTP_REC",30,0,0],                                     // Recon Combat Life Saver
-    ["UK3CB_BAF_Explosive_MTP_REC",30,0,0],                                 // Recon Explosives Specialist
-    ["UK3CB_BAF_Sniper_MTP_Ghillie_L115",70,5,0],                           // Sniper (L115)
-    ["UK3CB_BAF_Sniper_MTP_Ghillie_L135",70,5,0],                           // Sniper (L135)
-    ["UK3CB_BAF_Spotter_MTP_Ghillie_L129",70,5,0],                          // Sniper (L129)
-    ["UK3CB_BAF_Spotter_MTP_Ghillie_L85",20,0,0],                           // Spotter (L85)
-    ["UK3CB_BAF_Crewman_MTP",10,0,0],                                       // Crewman
-    ["UK3CB_BAF_HeliCrew_MTP",10,0,0],                                      // Helicopter Crew
-    ["UK3CB_BAF_HeliMedic_MTP",20,0,0],                                     // Helicopter Crew
-    ["UK3CB_BAF_HeliPilot_Army_MTP",10,0,0],                                // Helicopter Pilot
-    ["UK3CB_BAF_Pilot_Army",10,0,0]                                         // Pilot
+    ["UK3CB_BAF_Pointman_MTP",1,0,0],                                      // Rifleman (Light)
+    ["UK3CB_BAF_Rifleman_MTP",2,0,0],                                      // Rifleman
+    ["UK3CB_BAF_LAT_MTP",3,0,0],                                      		// Rifleman (AT)
+    ["UK3CB_BAF_Grenadier_MTP",2,0,0],                                     // Grenadier
+    ["UK3CB_BAF_MGLMG_MTP",2,0,0],                                         // Autorifleman
+    ["UK3CB_BAF_MGGPMG_MTP",3,0,0],                                        // Heavygunner
+    ["UK3CB_BAF_Marksman_MTP",3,0,0],                                      // Marksman
+    ["UK3CB_BAF_MAT_MTP",5,10,0],                                          // AT Specialist
+    ["B_soldier_AA_F",5,10,0],                                             // AA Specialist (None in BAF mod.)
+    ["UK3CB_BAF_Medic_MTP",3,0,0],                                         // Combat Life Saver
+    ["UK3CB_BAF_Engineer_MTP",3,0,0],                                      // Engineer
+    ["UK3CB_BAF_Explosive_MTP",3,0,0],                                     // Explosives Specialist
+    ["UK3CB_BAF_Pointman_MTP_REC",2,0,0],                                  // Recon Rifleman
+    ["UK3CB_BAF_FAC_MTP_REC",3,0,0],                                       // Recon Rifleman (Grenadier)
+    ["UK3CB_BAF_MGLMG_MTP_REC",3,0,0],                                     // Recon Machine Gunner
+    ["UK3CB_BAF_Marksman_MTP_REC",3,0,0],                                  // Recon Marksman
+    ["UK3CB_BAF_Medic_MTP_REC",3,0,0],                                     // Recon Combat Life Saver
+    ["UK3CB_BAF_Explosive_MTP_REC",3,0,0],                                 // Recon Explosives Specialist
+    ["UK3CB_BAF_Sniper_MTP_Ghillie_L115",5,1,0],                           // Sniper (L115)
+    ["UK3CB_BAF_Sniper_MTP_Ghillie_L135",5,1,0],                           // Sniper (L135)
+    ["UK3CB_BAF_Spotter_MTP_Ghillie_L129",3,1,0],                          // Spotter (L129)
+    ["UK3CB_BAF_Spotter_MTP_Ghillie_L85",2,0,0],                           // Spotter (L85)
+    ["UK3CB_BAF_Crewman_MTP",1,0,0],                                       // Crewman
+    ["UK3CB_BAF_HeliCrew_MTP",1,0,0],                                      // Helicopter Crew
+    ["UK3CB_BAF_HeliMedic_MTP",2,0,0],                                     // Helicopter Crew
+    ["UK3CB_BAF_HeliPilot_Army_MTP",1,0,0],                                // Helicopter Pilot
+    ["UK3CB_BAF_Pilot_Army",1,0,0]                                         // Pilot
 ];
 
 light_vehicles = [
-    ["B_Quadbike_01_F",50,0,25],                                            // Quad Bike
-    ["B_LSV_01_unarmed_F",75,0,50],                                         // Prowler
-    ["B_LSV_01_armed_F",75,40,50],                                          // Prowler (HMG)
-    ["UK3CB_BAF_LandRover_Soft_FFR_Green_A_MTP",75,0,50],                   // Land Rover SoftTop
-    ["UK3CB_BAF_LandRover_Hard_FFR_Green_A_MTP",75,0,50],                   // Land Rover HardTop
-    ["UK3CB_BAF_LandRover_WMIK_HMG_FFR_Green_A_MTP",100,40,50],             // Land Rover WMIK (HMG)
-    ["UK3CB_BAF_LandRover_WMIK_GMG_FFR_Green_A_MTP",100,60,50],             // Land Rover WMIK (GMG)
-    ["UK3CB_BAF_LandRover_WMIK_Milan_FFR_Green_A_MTP",100,100,50],          // Land Rover WMIK (Milan)
-    ["UK3CB_BAF_Jackal2_L2A1_W_MTP",100,80,50],                             // Jackal 2 (HMG)
-    ["UK3CB_BAF_Jackal2_GMG_W_MTP",100,100,50],                             // Jackal 2 (GMG)
-    ["UK3CB_BAF_Coyote_Passenger_L111A1_W_MTP",100,80,50],                  // Coyote Passenger (HMG)
-    ["UK3CB_BAF_Coyote_Passenger_L134A1_W_MTP",100,100,50],                 // Coyote Passenger (GMG)
-    ["UK3CB_BAF_Coyote_Logistics_L111A1_W_MTP",100,80,50],                  // Coyote Logistics (HMG)
-    ["UK3CB_BAF_Coyote_Logistics_L134A1_W_MTP",100,100,50],                 // Coyote Logistics (GMG)
-    ["rhsusf_M1230a1_usarmy_wd",120,0,60],                                  // M1230A1 (MEDEVAC)
-    ["rhsusf_M1237_M2_usarmy_wd",125,40,75],                                // M1237 (HMG)
-    ["rhsusf_M1237_MK19_usarmy_wd",125,60,75],                              // M1237 (GMG)
-    ["rhsusf_M1083A1P2_WD_flatbed_fmtv_usarmy",100,0,50],                   // M1083A1P2
-    ["rhsusf_M977A4_BKIT_usarmy_wd",125,0,75],                              // M977A4 BKIT
-    ["rhsusf_M977A4_BKIT_M2_usarmy_wd",125,40,75],                          // M977A4 BKIT (HMG)
-    ["B_UGV_01_F",150,0,50],                                                // UGV Stomper
-    ["B_UGV_01_rcws_F",150,40,50],                                          // UGV Stomper (RCWS)
+    ["B_Quadbike_01_F",10,0,5],                                            // Quad Bike
+    ["UK3CB_BAF_LandRover_Soft_FFR_Green_A_MTP",30,0,10],                   // Land Rover SoftTop
+    ["UK3CB_BAF_LandRover_Hard_FFR_Green_A_MTP",30,0,10],                   // Land Rover HardTop
+    ["UK3CB_BAF_LandRover_WMIK_HMG_FFR_Green_A_MTP",40,20,10],             // Land Rover WMIK (HMG)
+    ["UK3CB_BAF_LandRover_WMIK_GMG_FFR_Green_A_MTP",40,20,10],             // Land Rover WMIK (GMG)
+    ["UK3CB_BAF_LandRover_WMIK_Milan_FFR_Green_A_MTP",40,30,10],          // Land Rover WMIK (Milan)
+    ["UK3CB_BAF_Jackal2_L2A1_W_MTP",50,20,15],                             // Jackal 2 (HMG)
+    ["UK3CB_BAF_Jackal2_GMG_W_MTP",50,20,15],                             // Jackal 2 (GMG)
+    ["UK3CB_BAF_Coyote_Passenger_L111A1_W_MTP",60,40,25],                  // Coyote Passenger (HMG)
+    ["UK3CB_BAF_Coyote_Passenger_L134A1_W_MTP",60,40,25],                 // Coyote Passenger (GMG)
+    ["UK3CB_BAF_Coyote_Logistics_L111A1_W_MTP",60,40,25],                  // Coyote Logistics (HMG)
+    ["UK3CB_BAF_Coyote_Logistics_L134A1_W_MTP",60,40,25],                 // Coyote Logistics (GMG)
+	["UK3CB_BAF_Husky_Passenger_HMG_Green_MTP",50,40,15],                  // Husky Passenger (HMG)
+    ["UK3CB_BAF_Husky_Passenger_GMG_Green_MTP",50,40,15],                 // Husky Passenger (GMG)
+    ["UK3CB_BAF_Husky_Logistics_HMG_Green_MTP",60,40,15],                  // Husky Logistics (HMG)
+    ["UK3CB_BAF_Husky_Logistics_GMG_Green_MTP",60,40,15],                 // Husky Logistics (GMG)
+    ["UK3CB_BAF_LandRover_Amb_FFR_Green_A_MTP",20,0,10],                   // Land Rover (MEDEVAC)
+	["UK3CB_BAF_MANHX58_Transport_Green_MTP",70,0,40],                   	// MAN 6x6 Transport
+    ["B_UGV_01_F",50,0,10],                                                // UGV Stomper
+    ["B_UGV_01_rcws_F",50,40,10],                                          // UGV Stomper (RCWS)
     ["B_Boat_Transport_01_F",100,0,25],                                     // Assault Boat
-    ["B_Boat_Armed_01_minigun_F",200,80,75],                                // Speedboat Minigun
-    ["rhsusf_mkvsoc",250,200,100],                                          // Mk.V SOCOM
-    ["B_SDV_01_F",150,0,50]                                                 // SDV
+    ["B_Boat_Armed_01_minigun_F",50,20,20],                                // Speedboat Minigun
+    ["B_SDV_01_F",100,0,50]                                                 // SDV
 ];
 
 heavy_vehicles = [
-    ["RHS_M2A2_BUSKI_WD",300,200,150],                                      // M2A2ODS (Busk I)
-    ["RHS_M2A3_BUSKIII_wd",300,250,175],                                    // M2A3 (Busk III)
-    ["RHS_M6_wd",300,250,175],                                              // M6A2
-    ["rhsusf_m1a1aim_tuski_wd",400,350,225],                                // M1A1SA (Tusk I)
-    ["rhsusf_m1a2sep1tuskiiwd_usarmy",500,400,250],                         // M1A2SEPv1 (Tusk II)
-    ["rhsusf_m109_usarmy",600,1250,300]                                     // M109A6
+    ["UK3CB_BAF_FV432_Mk3_RWS_Green_MTP",100,40,40],                      // FV432 Bulldog
+    ["UK3CB_BAF_Warrior_A3_W_Cage_Camo_MTP",150,60,50]                    // Warrior IFV
 ];
 
 air_vehicles = [
-    ["B_UAV_01_F",75,0,25],                                                 // AR-2 Darter
-    ["B_UAV_06_F",80,0,30],                                                 // AL-6 Pelican (Cargo)
-    ["UK3CB_BAF_Wildcat_AH1_TRN_8A_MTP",225,0,125],                         // Wildcat AH1 8 Transport (Unarmed)
-    ["UK3CB_BAF_Wildcat_HMA2_TRN_8A_MTP",250,0,125],                        // Wildcat HMA2 8 Transport (Unarmed)
-    ["UK3CB_BAF_Wildcat_AH1_CAS_6C_MTP",275,200,150],                       // Wildcat AH1 6 (CAS/AT)
-    ["UK3CB_BAF_Wildcat_AH1_CAS_8C_MTP",275,200,150],                       // Wildcat AH1 8 (CAS/AT)
-    ["UK3CB_BAF_Apache_AH1_MTP",500,500,200],                               // Apache AH 1 (Multi-Role)
-    ["RHS_AH64D_wd",750,750,250],                                           // AH-64D (Multi-Role)
-    ["RHS_UH60M2",250,0,150],                                               // UH-60M (Unarmed)
-    ["RHS_UH60M",250,80,150],                                               // UH-60M
-    ["RHS_UH60M_MEV2",300,0,150],                                           // UH-60M MEV2
-    ["RHS_CH_47F_10",275,80,175],                                           // CH-47 Chinook (Armed)
-    ["UK3CB_BAF_Merlin_HC3_32_MTP",300,0,175],                              // Merlin HC3 32
-    ["UK3CB_BAF_Merlin_HC3_CSAR_MTP",300,80,175],                           // Merlin HC3 CSAR (Armed)
-    ["B_UAV_02_dynamicLoadout_F",400,300,200],                              // MQ-4A Greyhawk
-    ["B_T_UAV_03_dynamicLoadout_F",450,500,250],                            // MQ-12 Falcon
-    ["B_UAV_05_F",500,500,200],                                             // UCAV Sentinel
-    ["RHS_A10",1000,1000,400],                                              // A-10A (CAS)
-    ["FIR_F15C",1250,1250,450],                                             // F-15C Eagle
-    ["FIR_F15D",1250,1250,450],                                             // F-15D Eagle
-    ["FIR_F15E",1250,1500,450],                                             // F-15E Strike Eagle
-    ["JS_JC_FA18E",1500,1750,450],                                          // F/A-18 E Super Hornet
-    ["JS_JC_FA18F",1500,1750,450],                                          // F/A-18 F Super Hornet
-    ["B_Plane_Fighter_01_F",1500,1750,450],                                 // F/A-181 Black Wasp II
-    ["B_Plane_Fighter_01_Stealth_F",1500,1750,450],                         // F/A-181 Black Wasp II (Stealth)
-    ["B_T_VTOL_01_armed_F",750,1500,500],                                   // V-44 X Blackfish (Armed)
-    ["B_T_VTOL_01_infantry_F",750,0,500],                                   // V-44 X Blackfish (Infantry)
-    ["B_T_VTOL_01_vehicle_F",750,0,500]                                     // V-44 X Blackfish (Vehicle)
+    ["B_UAV_01_F",20,0,20],                                                 // AR-2 Darter
+    ["B_UAV_06_F",30,0,30],                                                 // AL-6 Pelican (Cargo)
+    ["UK3CB_BAF_Wildcat_AH1_TRN_8A_MTP",100,0,100],                         // Wildcat AH1 8 Transport (Unarmed)
+    ["I_Heli_light_03_dynamicLoadout_F",150,100,100],                       // Wildcat Armed (base game)
+    ["UK3CB_BAF_Apache_AH1_DynamicLoadoutUnlimited",250,200,150],           // Apache AH 1 Dynamic Loadout
+    ["UK3CB_BAF_Merlin_HC3_32_MTP",120,0,120],                              // Merlin HC3 32
+    ["UK3CB_BAF_Merlin_HC3_CSAR_MTP",120,30,120],                           // Merlin HC3 CSAR (Armed)
+    ["B_UAV_02_dynamicLoadout_F",200,100,100],                              // MQ-4A Greyhawk
+    ["B_T_UAV_03_dynamicLoadout_F",250,150,100],                            // MQ-12 Falcon
+    ["B_Plane_CAS_01_dynamicLoadout_F",700,400,400],                      // A164 Wipeout dynamic loadout
+    ["B_Plane_Fighter_01_F",900,500,600],                                 // F/A-181 Black Wasp II
+    ["B_Plane_Fighter_01_Stealth_F",900,500,600],                         // F/A-181 Black Wasp II (Stealth)
+    ["B_T_VTOL_01_armed_F",750,800,500],                                   // V-44 X Blackfish (Armed)
+    ["B_T_VTOL_01_infantry_F",600,0,400],                                   // V-44 X Blackfish (Infantry)
+    ["B_T_VTOL_01_vehicle_F",600,0,400]                                     // V-44 X Blackfish (Vehicle)
 ];
 
 static_vehicles = [
@@ -155,10 +135,10 @@ static_vehicles = [
     ["UK3CB_BAF_Static_L134A1_Deployed_Low_MTP",25,60,0],                   // L134A1 GMG (Low)
     ["UK3CB_BAF_Static_L134A1_Deployed_Mid_MTP",25,60,0],                   // L134A1 GMG (Med)
     ["UK3CB_BAF_Static_L134A1_Deployed_High_MTP",25,60,0],                  // L134A1 GMG (High)
-    ["RHS_TOW_TriPod_WD",50,100,0],                                         // TOW (AT)
-    ["RHS_Stinger_AA_pod_WD",50,100,0],                                     // Stinger (AA)
-    ["UK3CB_BAF_Static_L16_Deployed_MTP",80,150,0],                         // Mk6 Mortar
-    ["RHS_M119_WD",100,200,0]                                               // M119A2
+    ["B_static_AT_F",50,50,0],                                         	// Static AT	
+    ["B_static_AA_F",50,50,0],                                     		// Static AA
+    ["UK3CB_BAF_Static_L16_Deployed_MTP",80,150,0],                          // Mk6 Mortar
+	["B_SAM_System_03_f",200,400,0]                          				// SAM system
 ];
 
 buildings = [
@@ -260,10 +240,10 @@ support_vehicles = [
     ["UK3CB_BAF_Box_WpsStatic",300,300,0],
     ["UK3CB_BAF_Box_L16_Ammo",0,0,0],
     ["UK3CB_BAF_Box_M6_Ammo",0,0,0],
-    ["B_APC_Tracked_01_CRV_F",500,250,350],                                 // CRV-6e Bobcat
-    ["rhsusf_M977A4_REPAIR_BKIT_usarmy_wd",325,0,75],                       // M977A4 Repair
-    ["rhsusf_M978A4_BKIT_usarmy_wd",125,0,275],                             // M978A4 Fuel
-    ["rhsusf_M977A4_AMMO_BKIT_usarmy_wd",125,200,75],                       // M977A4 Ammo
+    ["UK3CB_BAF_MAN_HX58_Fuel_Green_MTP",325,0,75],                       	// BAF Fuel
+    ["UK3CB_BAF_MAN_HX58_Repair_Green_MTP",125,0,275],                      // BAF Repair
+    ["UK3CB_BAF_MAN_HX58_Container_ReArm",125,200,75],                       // M977A4 Ammo
+	["UK3CB_BAF_MAN_HX58_Cargo_Green_A_MTP",125,200,75],                       // M977A4 Ammo
     ["B_Slingload_01_Repair_F",275,0,0],                                    // Huron Repair
     ["B_Slingload_01_Fuel_F",75,0,200],                                     // Huron Fuel
     ["B_Slingload_01_Ammo_F",75,200,0]                                      // Huron Ammo
@@ -277,35 +257,31 @@ support_vehicles = [
 
 // Light infantry squad.
 blufor_squad_inf_light = [
-    "UK3CB_BAF_FT_MTP",
-    "UK3CB_BAF_Pointman_MTP",
-    "UK3CB_BAF_Pointman_MTP",
-    "UK3CB_BAF_LAT_ILAW_MTP",
-    "UK3CB_BAF_Grenadier_MTP",
-    "UK3CB_BAF_LSW_MTP",
-    "UK3CB_BAF_LSW_MTP",
-    "UK3CB_BAF_Marksman_MTP",
+    "UK3CB_BAF_SC_MTP",
     "UK3CB_BAF_Medic_MTP",
-    "UK3CB_BAF_Engineer_MTP"
+    "UK3CB_BAF_LAT_MTP",
+    "UK3CB_BAF_LAT_ILAW_MTP",
+    "UK3CB_BAF_Marksman_MTP",
+    "UK3CB_BAF_MGLMG_MTP",
+    "UK3CB_BAF_Rifleman_MTP",
+    "UK3CB_BAF_Rifleman_MTP"
 ];
 
 // Heavy infantry squad.
 blufor_squad_inf = [
-    "UK3CB_BAF_FT_MTP",
-    "UK3CB_BAF_LAT_ILAW_MTP",
-    "UK3CB_BAF_LAT_ILAW_MTP",
-    "UK3CB_BAF_Grenadier_MTP",
-    "UK3CB_BAF_LSW_MTP",
-    "UK3CB_BAF_LSW_MTP",
-    "UK3CB_BAF_MGLMG_MTP",
-    "UK3CB_BAF_Marksman_MTP",
+    "UK3CB_BAF_SC_MTP",
     "UK3CB_BAF_Medic_MTP",
-    "UK3CB_BAF_Engineer_MTP"
+    "UK3CB_BAF_LAT_MTP",
+    "UK3CB_BAF_MAT_MTP", //
+    "UK3CB_BAF_Marksman_MTP",
+    "UK3CB_BAF_MGLMG_MTP",
+    "UK3CB_BAF_MGGPMG_MTP",
+    "UK3CB_BAF_Marksman_MTP"
 ];
 
 // AT specialists squad.
 blufor_squad_at = [
-    "UK3CB_BAF_FT_MTP",
+    "UK3CB_BAF_SC_MTP",
     "UK3CB_BAF_Rifleman_MTP",
     "UK3CB_BAF_Rifleman_MTP",
     "UK3CB_BAF_MAT_MTP",

@@ -50,29 +50,29 @@ KP_liberation_fuel_crate = "CargoNet_01_barrels_F";                     // This 
     IMPORTANT: The last element inside each array must have no comma at the end!
 */
 infantry_units = [
-    ["B_T_Soldier_F",20,0,0],                                           // Rifleman
-    ["B_T_Soldier_LAT_F",30,0,0],                                       // Rifleman (AT)
-    ["B_T_Soldier_GL_F",25,0,0],                                        // Grenadier
-    ["B_T_Soldier_AR_F",25,0,0],                                        // Autorifleman
-    ["B_T_soldier_M_F",30,0,0],                                         // Marksman
-    ["B_T_Soldier_AT_F",50,10,0],                                       // AT Specialist
-    ["B_T_Soldier_AA_F",50,10,0],                                       // AA Specialist
-    ["B_T_Medic_F",30,0,0],                                             // Combat Life Saver
-    ["B_T_Engineer_F",30,0,0],                                          // Engineer
-    ["B_T_Soldier_Exp_F",30,0,0],                                       // Explosives Specialist
-    ["B_T_Recon_F",20,0,0],                                             // Recon Scout
-    ["B_T_Recon_LAT_F",30,0,0],                                         // Recon Scout (AT)
-    ["B_T_Recon_M_F",30,0,0],                                           // Recon Marksman
-    ["B_T_Recon_Medic_F",30,0,0],                                       // Recon Paramedic
-    ["B_T_Recon_exp_F",30,0,0],                                         // Recon Demolition Expert
-    ["B_T_Sniper_F",70,5,0],                                            // Sniper
-    ["B_T_ghillie_tna_F",70,5,0],                                       // Sniper (Jungle)
-    ["B_T_Spotter_F",20,0,0],                                           // Spotter
-    ["B_T_Crew_F",10,0,0],                                              // Crewman
-    ["B_T_Soldier_PG_F",20,0,0],                                        // Para Trooper
-    ["B_T_Helicrew_F",10,0,0],                                          // Helicopter Crew
-    ["B_T_Helipilot_F",10,0,0],                                         // Helicopter Pilot
-    ["B_T_Pilot_F",10,0,0]                                              // Pilot
+    ["B_T_Soldier_F",2,0,0],                                           // Rifleman
+    ["B_T_Soldier_LAT_F",3,0,0],                                       // Rifleman (AT)
+    ["B_T_Soldier_GL_F",2,0,0],                                        // Grenadier
+    ["B_T_Soldier_AR_F",2,0,0],                                        // Autorifleman
+    ["B_T_soldier_M_F",3,0,0],                                         // Marksman
+    ["B_T_Soldier_AT_F",5,1,0],                                       // AT Specialist
+    ["B_T_Soldier_AA_F",5,1,0],                                       // AA Specialist
+    ["B_T_Medic_F",3,0,0],                                             // Combat Life Saver
+    ["B_T_Engineer_F",3,0,0],                                          // Engineer
+    ["B_T_Soldier_Exp_F",3,0,0],                                       // Explosives Specialist
+    ["B_T_Recon_F",2,0,0],                                             // Recon Scout
+    ["B_T_Recon_LAT_F",3,0,0],                                         // Recon Scout (AT)
+    ["B_T_Recon_M_F",3,0,0],                                           // Recon Marksman
+    ["B_T_Recon_Medic_F",3,0,0],                                       // Recon Paramedic
+    ["B_T_Recon_exp_F",3,0,0],                                         // Recon Demolition Expert
+    ["B_T_Sniper_F",7,5,0],                                            // Sniper
+    ["B_T_ghillie_tna_F",7,5,0],                                       // Sniper (Jungle)
+    ["B_T_Spotter_F",2,0,0],                                           // Spotter
+    ["B_T_Crew_F",1,0,0],                                              // Crewman
+    ["B_T_Soldier_PG_F",2,0,0],                                        // Para Trooper
+    ["B_T_Helicrew_F",1,0,0],                                          // Helicopter Crew
+    ["B_T_Helipilot_F",1,0,0],                                         // Helicopter Pilot
+    ["B_T_Pilot_F",1,0,0]                                              // Pilot
 ];
 
 light_vehicles = [

@@ -41,6 +41,7 @@ KP_liberation_fuel_crate = "CargoNet_01_barrels_F";                     // This 
     The above example is the NATO IFV-6a Cheetah, it costs 300 supplies, 150 ammunition and 150 fuel to build.
     IMPORTANT: The last element inside each array must have no comma at the end!
 */
+/* Reducing the infantry costs by a factor of ten to allow bigger battles
 infantry_units = [
     ["rhs_vdv_rifleman_lite",15,0,0],                                   // Rifleman (Light)
     ["rhs_vdv_rifleman",20,0,0],                                        // Rifleman
@@ -62,6 +63,29 @@ infantry_units = [
     ["rhs_pilot_combat_heli",10,0,0],                                   // Helicopter Pilot
     ["rhs_pilot_transport_heli",10,0,0],                                // Helicopter Pilot Transport
     ["rhs_pilot",10,0,0]                                                // Pilot
+];
+*/
+infantry_units = [
+    ["rhs_vdv_rifleman_lite",1,0,0],                                   // Rifleman (Light)
+    ["rhs_vdv_rifleman",2,0,0],                                        // Rifleman
+    ["rhs_vdv_LAT",3,0,0],                                             // Rifleman (LAT)
+    ["rhs_vdv_grenadier_alt",2,0,0],                                   // Grenadier
+    ["rhs_vdv_machinegunner", 2,0,0],                                  // Machinegunner
+    ["rhs_vdv_arifleman",3,0,0],                                       // Autorifleman
+    ["rhs_vdv_marksman",3,0,0],                                        // Marksman
+    ["rhs_vdv_at",5,10,0],                                             // AT Specialist
+    ["rhs_vdv_aa",5,10,0],                                             // AA Specialist
+    ["rhs_vdv_medic",3,0,0],                                           // Combat Life Saver
+    ["rhs_vdv_engineer",3,0,0],                                        // Engineer
+    ["rhs_vdv_recon_rifleman",2,0,0],                                  // Recon Rifleman
+    ["rhs_vdv_recon_rifleman_lat",3,0,0],                              // Recon Rifleman (AT)
+    ["rhs_vdv_recon_arifleman",3,0,0],                                 // Recon Autorifleman
+    ["rhs_vdv_recon_arifleman_scout",2,0,0],                           // Recon Autorifleman Scout
+    ["rhs_vdv_recon_marksman",3,0,0],                                  // Recon Marksman
+    ["rhs_vdv_armoredcrew",1,0,0],                                     // Crewman
+    ["rhs_pilot_combat_heli",1,0,0],                                   // Helicopter Pilot
+    ["rhs_pilot_transport_heli",1,0,0],                                // Helicopter Pilot Transport
+    ["rhs_pilot",1,0,0]                                                // Pilot
 ];
 
 light_vehicles = [
@@ -119,7 +143,10 @@ air_vehicles = [
     ["O_UAV_02_dynamicLoadout_F",400,300,200],                          // K40 Ababil
     ["O_T_UAV_04_CAS_F",450,500,250],                                   // KH-3A
     ["RHS_Su25SM_vvsc",900,900,400],                                    // Su-25SM
-    ["rhs_mig29s_vvsc",1250,1250,450]                                   // Mig-29S
+    ["rhs_mig29s_vvsc",1250,1250,450],                                  // Mig-29S
+	["O_Heli_Attack_02_dynamicLoadout_black_F",650,600,300],            // Kajman black
+	["O_Plane_CAS_02_dynamicLoadout_F",900,900,400],                    // T-199 Neophoron
+    ["O_T_VTOL_02_infantry_dynamicLoadout_F",1250,1250,450]             // Y-32 Xi'an (Infantry Transport)
 ];
 
 static_vehicles = [
